@@ -29,11 +29,18 @@ class TestStudentManger:
         assert "xcz" in stu_name_list
 
     def test_del(self):
+        """
+        测试删除学生方法
+        """
+        # 1.实例化学生信息管理类
         sm = StudentManager()
+        # 2.实例化学生
         stu1 = Student("xcz", 80)
         stu2 = Student("wzl", 10)
+        # 3.调用学生信息管理类中的添加学生方法
         sm.add(stu1)
         sm.add(stu2)
+        # 4.调用学生信息管理类中的删除学生方法
         sm.remove(stu1.name)
         # 获取当前学生信息管理系统中所有的学生姓名,放到列表中
         stu_name_list = []
@@ -45,16 +52,33 @@ class TestStudentManger:
         assert "xcz" not in stu_name_list
 
     def test_sel(self):
+        """
+        测试获取学生信息方法
+        """
+        # 1.实例化学生信息管理类
         sm = StudentManager()
+        # 2.实例化学生
         stu = Student("xcz", 80)
+        # 3.调用学生信息管理类中的添加学生方法
         sm.add(stu)
-        print(sm.get_student_info(stu.name))
-        assert "学生的姓名：xcz, 分数：80" == str(sm.get_student_info(stu.name))
+        # 4.调用查询学生信息方法
+        result_stu = sm.get_student_info(stu.name)
+        # 断言
+        assert "xcz" == result_stu.name
+        assert 80 == result_stu.score
 
     def test_avg(self):
+        """
+        测试计算平均分方法
+        """
+        # 1.实例化学生信息管理类
         sm = StudentManager()
+        # 2.实例化学生
         stu1 = Student("xcz", 80)
         stu2 = Student("wzl", 100)
+        # 3.调用学生信息管理类中的添加学生方法
         sm.add(stu1)
         sm.add(stu2)
-        assert 90 == sm.average_score()
+        # 4.调用计算平均分方法
+        avg_score = sm.average_score()
+        assert 90 == avg_score
