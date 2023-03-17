@@ -20,7 +20,7 @@
 ![img.png](img/allure_overview.png)
 **Allure2 报告展示 - 用例详情页**
 ![img.png](img/allure_casedetail.png)
-#### Allure2 报告生成
+### Allure2 报告生成
 ![img.png](img/allure_process.png)
 **使用 Allure2 生成精美报告**
 * 生成测试报告需要使用命令行工具 allure
@@ -166,7 +166,7 @@ def test_step_in_method():
     with allure.step("测试步骤三：断言"):
         assert True
 ```
-**Allure2报告中添加用例分类**
+#### Allure2报告中添加用例分类
 * 应用场景：可以为项目，以及项目下的不同模块对用例进行分类管理。也可以运行某个类别下的用例。
 * 报告展示：类别会展示在测试报告的 Behaviors 栏目下。
 * Allure 提供了三个装饰器：
@@ -279,7 +279,7 @@ def test_with_testcase_link():
 def test_with_issue():
     pass
 ```
-**Allure2 报告中添加用例描述**
+#### Allure2 报告中添加用例描述
 * 应用场景：Allure 支持往测试报告中对测试用例添加非常详细的描述语，用来描述测试用例详情。
 * Allure 添加描述的四种方式：
   * 方式一：使用装饰器 @allure.description() 传递一个字符串参数来描述测试用例。
@@ -365,7 +365,7 @@ logger.addHandler(file_log_handler)
 # 设置日志输出级别
 logger.setLevel(level=logging.INFO)
 ```
-**Allure2 报告中添加日志**
+
 * 代码输出到用例详情页面。
 * 运行用例：pytest --alluredir ./results --clean-alluredir（注意不要加-vs）。
 ```angular2html
