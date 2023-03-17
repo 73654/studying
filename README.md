@@ -1,5 +1,12 @@
 # project
 
+## 笔记存放地址
+https://gitee.com/sj73654/project/blob/master/note/allure/allure.md
+## 作业存放地址
+https://gitee.com/sj73654/project/blob/master/test_pytest/test_caculator.py
+## 项目存放地址
+https://gitee.com/sj73654/project/blob/master/script/caculator.py
+
 #### 介绍
 {**以下是 Gitee 平台说明，您可以替换此简介**
 Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
