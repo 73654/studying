@@ -1,8 +1,13 @@
 ## Allure 测试报告
+
 **知识点梳理**
-![img.png](img/allure知识点梳理.png)
+
+![img.png](img/Knowledge combing.png)
+
 **实战思路**
-![img.png](img/allure实战思路.png)
+
+![img.png](img/allure_ideas.png)
+
 **Allure2 介绍**
 * Allure 是由 Java 语⾔开发的⼀个轻量级，灵活的测试报告⼯具。
 * Allure 多平台的 Report 框架。
@@ -12,11 +17,11 @@
 * 可以集成到 Jenkins 生成在线的趋势汇总报告
 
 Allure2 报告展示 - 首页概览
-![img.png](img/allure_首页概览.png)
+![img.png](img/allure_overview.png)
 Allure2 报告展示 - 用例详情页
 ![img.png](img/allure_casedetail.png)
 **Allure2 报告生成**
-![img.png](img/allure_生成报告流程.png)
+![img.png](img/allure_process.png)
 **使用 Allure2 生成精美报告**
 * 生成测试报告需要使用命令行工具 allure
 * 命令格式：
@@ -65,7 +70,7 @@ allure open -h 127.0.0.1 -p 8883 ./report/
 
 **Allure2报告中添加用例标题**
 
-![img.png](img/allure添加用例标题.png)
+![img.png](img/allure_add_title.png)
 应用场景：为了让生成的测试报告便于阅读，可以为每条用例添加一个便于阅读的标题（可以使用中文标题）。生成的报告展示用例时，就会以设置的标题名展示出来。
 ![img.png](img/allure_title.png)
 * 通过使用装饰器 @allure.title 可以为测试用例自定义一个可阅读性的标题。
