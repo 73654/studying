@@ -1,0 +1,1 @@
+[2023-03-17 19:40:44] [INFO] [test_caculator.py]/[line: 87]/[test_mul] 两数相乘结果为-1.1 

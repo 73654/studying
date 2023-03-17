@@ -1,0 +1,107 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger","TestStudentManger","","","test_sel[wsr-99]","
+        测试获取学生信息方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","1","test_pytest","test_student_manger","TestStudentManger","","","test_del[xcz-80]","
+        测试删除学生方法
+        "
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger2","TestStudentManger","","","test_add[耿世杰-90]","
+        测试添加学生方法
+        "
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger2","TestStudentManger","","","test_add[王实瑞-99]","
+        测试添加学生方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","1","test_pytest","test_student_manger","TestStudentManger","","","test_del[wzl-90]","
+        测试删除学生方法
+        "
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","1","test_pytest","test_student_manger2","TestStudentManger","","","test_add[郗辰政-80]","
+        测试添加学生方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_caculator","TestCaculator","","","test_add[5-10-15]",""
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","1","test_pytest","test_params","TestParams","","","test_mark_more[run-xiaowang]",""
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_caculator","TestCaculator","","","test_add[15-20-35]",""
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_student_manger","TestStudentManger","","","test_add[wzl-90]","
+        测试添加学生方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","1","test_pytest","test_caculator","TestCaculator","","","test_add2[first_chinese]",""
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_params","TestParams","","","test_mark_more[sing-xiaowang]",""
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_caculator","TestCaculator","","","test_add[10-20-30]",""
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger2","TestStudentManger","","","test_sel[郗辰政-80]","
+        测试获取学生信息方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_student_manger","TestStudentManger","","","test_add[xcz-80]","
+        测试添加学生方法
+        "
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger","TestStudentManger","","","test_sel[wzl-90]","
+        测试获取学生信息方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_student_manger","TestStudentManger","","","test_del[gsj-100]","
+        测试删除学生方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_params","TestParams","","","test_search[python]",""
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger2","TestStudentManger","","","test_sel[耿世杰-90]","
+        测试获取学生信息方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","1","test_pytest","test_params","TestParams","","","test_search[selenium]",""
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_student_manger","TestStudentManger","","","test_add[wsr-99]","
+        测试添加学生方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_caculator","TestCaculator","","","test_div[5-10-0.5]",""
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger2","TestStudentManger","","","test_sel[王泽林-100]","
+        测试获取学生信息方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_params","TestParams","","","test_mark_more[play-xiaowang]",""
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","1","test_pytest","test_student_manger","TestStudentManger","","","test_avg[xcz-80-wzl-90-gsj-100-wsr-99-92.25]","
+        测试计算平均分方法
+        "
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger2","TestStudentManger","","","test_del[王实瑞-99]","
+        测试删除学生方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_params","TestParams","","","test_mark_more[sing-xiaoli]",""
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_caculator","TestCaculator","","","test_div[15-20-0.75]",""
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_student_manger","TestStudentManger","","","test_sel[xcz-80]","
+        测试获取学生信息方法
+        "
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","1","test_pytest","test_student_manger2","TestStudentManger","","","test_avg[zxb-120-cyw-150-nqf-130-wzl2-0-100]","
+        测试计算平均分方法
+        "
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger2","TestStudentManger","","","test_del[王泽林-100]","
+        测试删除学生方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","1","test_pytest","test_setup","TestSetup","","","test_demo2",""
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_params","TestParams","","","test_search1",""
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger2","TestStudentManger","","","test_add[王泽林-100]","
+        测试添加学生方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_student_manger","TestStudentManger","","","test_del[wsr-99]","
+        测试删除学生方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","1","test_pytest","test_setup","","","","test_demo",""
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_caculator","TestCaculator","","","test_div[10-20-0.5]",""
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","1","test_pytest","test_student_manger","TestStudentManger","","","test_avg[zxb-120-cyw-150-nqf-130-wzl2-0-100]","
+        测试计算平均分方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_caculator","TestCaculator","","","test_add2[second_chinese]",""
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger2","TestStudentManger","","","test_sel[王实瑞-99]","
+        测试获取学生信息方法
+        "
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger2","TestStudentManger","","","test_del[耿世杰-90]","
+        测试删除学生方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_caculator","TestCaculator","","","test_add[-1.1-1--0.1]",""
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger2","TestStudentManger","","","test_del[郗辰政-80]","
+        测试删除学生方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_caculator","TestCaculator","","","test_div[15-30-0.5]",""
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_setup","TestSetup","","","test_demo1",""
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger","TestStudentManger","","","test_sel[gsj-100]","
+        测试获取学生信息方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_params","TestParams","","","test_mark_more[play-xiaoli]",""
+"passed","Fri Mar 17 15:49:58 GMT+08:00 2023","Fri Mar 17 15:49:58 GMT+08:00 2023","0","test_pytest","test_student_manger2","TestStudentManger","","","test_avg[xcz-80-wzl-90-gsj-100-wsr-99-92.25]","
+        测试计算平均分方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","1","test_pytest","test_student_manger","TestStudentManger","","","test_add[gsj-100]","
+        测试添加学生方法
+        "
+"passed","Fri Mar 17 15:49:57 GMT+08:00 2023","Fri Mar 17 15:49:57 GMT+08:00 2023","0","test_pytest","test_params","TestParams","","","test_mark_more[run-xiaoli]",""

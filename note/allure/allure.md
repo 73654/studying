@@ -2,7 +2,7 @@
 
 **知识点梳理**
 
-![img.png](img/Knowledge combing.png)
+![img.png](img/knowledgecombing.png)
 
 **实战思路**
 
