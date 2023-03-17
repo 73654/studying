@@ -22,7 +22,9 @@
 ![img.png](img/allure_casedetail.png)
 ### Allure2 报告生成
 ![img.png](img/allure_process.png)
+
 **使用 Allure2 生成精美报告**
+
 * 生成测试报告需要使用命令行工具 allure
 * 命令格式：
 `allure [option] [command] [command options]`
