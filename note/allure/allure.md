@@ -8,7 +8,7 @@
 
 ![img.png](img/allure_ideas.png)
 
-**Allure2 介绍**
+### Allure2 介绍
 * Allure 是由 Java 语⾔开发的⼀个轻量级，灵活的测试报告⼯具。
 * Allure 多平台的 Report 框架。
 * Allure ⽀持多语⾔，包括 python、JaveScript、PHP、Ruby 等。
@@ -16,11 +16,11 @@
 * 可以为管理层提供高水准的统计报告。
 * 可以集成到 Jenkins 生成在线的趋势汇总报告
 
-Allure2 报告展示 - 首页概览
+**Allure2 报告展示 - 首页概览**
 ![img.png](img/allure_overview.png)
-Allure2 报告展示 - 用例详情页
+**Allure2 报告展示 - 用例详情页**
 ![img.png](img/allure_casedetail.png)
-**Allure2 报告生成**
+#### Allure2 报告生成
 ![img.png](img/allure_process.png)
 **使用 Allure2 生成精美报告**
 * 生成测试报告需要使用命令行工具 allure
@@ -66,12 +66,14 @@ allure generate ./result -o ./report --clean
 # 打开报告，指定IP地址和端口。
 allure open -h 127.0.0.1 -p 8883 ./report/
 ```
-##### Allure 报告添加描述
+### Allure 报告添加描述
 
-**Allure2报告中添加用例标题**
+#### Allure2报告中添加用例标题
 
 ![img.png](img/allure_add_title.png)
+
 应用场景：为了让生成的测试报告便于阅读，可以为每条用例添加一个便于阅读的标题（可以使用中文标题）。生成的报告展示用例时，就会以设置的标题名展示出来。
+
 ![img.png](img/allure_title.png)
 * 通过使用装饰器 @allure.title 可以为测试用例自定义一个可阅读性的标题。
 * allure.title 的三种使用方式：
@@ -110,11 +112,14 @@ def test_with_dynamic_title():
     allure.dynamic.title("更改后的新标题")
 ```
 
-**Allure2 报告中添加用例步骤**
+#### Allure2 报告中添加用例步骤
+
 应用场景：编写自动化测试用例的时候经常会遇到需要编写流程性测试用例的场景，一般流程性的测试用例的测试步骤比较多，我们在测试用例中添加详细的步骤会提高测试用例的可阅读性。
+
 ![img.png](img/allure_steps.png)
 * Allure 支持两种方法：
-  * 方法一：使用装饰器定义一个测试步骤，在测试用例中使用。
+
+* 方法一：使用装饰器定义一个测试步骤，在测试用例中使用。
 ```angular2html
 # 方法一：使用装饰器定义一个测试步骤，在测试用例中使用
 import allure
@@ -396,6 +401,6 @@ pytest --alluredir ./results --clean-alluredir --allure-no-capture
 * 日志的级别
   * 设置日志的级别`logging.basicConfig(level=logging.INFO)`
 ![img.png](img/log_usage.png)
-* 日志的用法
-  *保存日志到文件`logging.basicConfig(filename='myapp.log', level=logging.INFO)`
-  *设置时间格式`logging.basicConfig(filename='myapp.log', level=logging.INFO,format='%(asctime)s [%(levelname)s] %(message)s (%(filename)s:%(lineno)s)', datefmt='%m/%d/%Y %I:%M:%S %p')` 
+* 日志的用法 
+  * 保存日志到文件`logging.basicConfig(filename='myapp.log', level=logging.INFO)`
+  * 设置时间格式`logging.basicConfig(filename='myapp.log', level=logging.INFO,format='%(asctime)s [%(levelname)s] %(message)s (%(filename)s:%(lineno)s)', datefmt='%m/%d/%Y %I:%M:%S %p')` 
