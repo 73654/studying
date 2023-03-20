@@ -34,19 +34,16 @@ class Member(Person):
         if len(red_list) == 0:
             print("手慢了,红包抢完了")
             return
-        idx = random.randint(a=0, b=len(red_list) - 1)
-        lucky_money = red_list.pop(idx)
-        print(lucky_money)
-        self.balance += lucky_money
+        idx = random.randint(0, len(red_list) - 1)
+        self.balance += red_list.pop(idx)
         print(f"{self.name}抢了一个红包!")
-        return self.balance
-        # self.balance += red_list.pop()
+
 
 
 if __name__ == '__main__':
     manager = Manager("郗辰政", 1000)
     manager.show()
-    manager.sendbag(999, 2)
+    manager.sendbag(999, 4)
     manager.show()
     zelin = Member(name="王泽林", balance=100)
     shijie = Member(name="耿世杰", balance=100)
