@@ -16,14 +16,16 @@ class Manager(Person):
 
     def sendbag(self, money, num):
         if money > self.balance:
-            print("我借贷给你们发")
+            print("我借贷给你们发?")
+            return
         self.balance = self.balance - money
         avg = money // num
         mod = money % num
         for i in range(num):
             self.red_pockets.append(avg)
         self.red_pockets[-1] += mod
-            # self.red_pockets.append(money)
+        # self.red_pockets.append(money)
+
 
 class Member(Person):
     """成员类"""
@@ -32,21 +34,29 @@ class Member(Person):
         if len(red_list) == 0:
             print("手慢了,红包抢完了")
             return
-        self.balance += red_list.pop()
+        idx = random.randint(a=0, b=len(red_list) - 1)
+        lucky_money = red_list.pop(idx)
+        print(lucky_money)
+        self.balance += lucky_money
         print(f"{self.name}抢了一个红包!")
+        return self.balance
+        # self.balance += red_list.pop()
 
 
 if __name__ == '__main__':
     manager = Manager("郗辰政", 1000)
     manager.show()
-    manager.sendbag(1001,2)
+    manager.sendbag(999, 2)
     manager.show()
     zelin = Member(name="王泽林", balance=100)
     shijie = Member(name="耿世杰", balance=100)
+    shirui = Member(name="王实瑞", balance=100)
     zelin.show()
     shijie.show()
+    shirui.show()
     zelin.grabbag(manager.red_pockets)
-    shijie.grabbag(manager.red_pockets)
     zelin.show()
+    shijie.grabbag(manager.red_pockets)
     shijie.show()
-
+    shirui.grabbag(manager.red_pockets)
+    shirui.show()
