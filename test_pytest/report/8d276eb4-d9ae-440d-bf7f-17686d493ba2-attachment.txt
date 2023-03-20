@@ -1,1 +1,0 @@
-INFO     utils.log_until:test_caculator.py:87 两数相乘结果为-1.1
