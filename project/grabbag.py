@@ -18,12 +18,11 @@ class Manager(Person):
         if money > self.balance:
             print("我借贷给你们发")
         self.balance = self.balance - money
+        avg = money // num
+        mod = money % num
         for i in range(num):
-            avg = money // num
-            mod = money % num
-            for x in range(num):
-                self.red_pockets.append(avg)
-            self.red_pockets[-1] += mod
+            self.red_pockets.append(avg)
+        self.red_pockets[-1] += mod
             # self.red_pockets.append(money)
 
 class Member(Person):
