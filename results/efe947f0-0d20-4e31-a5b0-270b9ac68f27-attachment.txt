@@ -1,0 +1,2 @@
+[32mINFO    [0m utils.log_until:test_student_manger2.py:57 添加的学生姓名为耿世杰
+[32mINFO    [0m utils.log_until:test_student_manger2.py:58 添加的学生成绩为90
