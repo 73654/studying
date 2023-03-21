@@ -1,11 +1,11 @@
 # project
 
 ## 笔记存放地址
-https://gitee.com/sj73654/project/blob/master/note/allure/allure.md
+https://gitee.com/sj73654/project/blob/master/note/web/web%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0.md
 ## 作业存放地址
-https://gitee.com/sj73654/project/blob/master/test_pytest/test_caculator.py
-## 项目存放地址
-https://gitee.com/sj73654/project/blob/master/script/caculator.py
+https://gitee.com/sj73654/project/blob/master/test_web/test_ceshiren_search.py
+https://gitee.com/sj73654/project/blob/master/test_web/test_litemall_login.py
+
 
 #### 介绍
 {**以下是 Gitee 平台说明，您可以替换此简介**
