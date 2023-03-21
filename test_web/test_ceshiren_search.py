@@ -16,8 +16,8 @@ class TestCeshirenSearch:
 
     @pytest.mark.parametrize(
         "a, b", [
-            ['selenium','selen'],
-            ['python','pyth']
+            ['selenium','selenium'],
+            ['python','selenium']
         ]
     )
     def test_ceshiren_search(self, a, b):
