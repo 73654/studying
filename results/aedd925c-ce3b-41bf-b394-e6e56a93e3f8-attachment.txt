@@ -1,5 +1,0 @@
-方法级别的 set up
-测试方法 test_demo2
-方法级别的 teardown
-类级别测试结束
-测试结束
