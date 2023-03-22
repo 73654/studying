@@ -5,6 +5,10 @@ https://gitee.com/sj73654/project/blob/master/note/web/web%E8%87%AA%E5%8A%A8%E5%
 ## 作业存放地址
 https://gitee.com/sj73654/project/blob/master/test_web/test_litemall_login.py
 
+## allure报告截图
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
 #### 介绍
 **以下是 Gitee 平台说明，您可以替换此简介**
 Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
