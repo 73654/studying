@@ -17,16 +17,16 @@ class TestCeshirenSearch:
     @pytest.mark.parametrize(
         "a, b", [
             ['selenium','selenium'],
-            ['python','selenium']
+            ['python','python']
         ]
     )
     def test_ceshiren_search(self, a, b):
         # 打开测试人首页
         self.driver.get("https://www.ceshiren.com")
         # 点击搜索按钮元素
-        self.driver.find_element(By.XPATH, '//*[@id="search-button"]').click()
+        self.driver.find_element(By.ID, 'search-button').click()
         # 找搜索框元素
-        self.driver.find_element(By.XPATH, '//*[@id="search-term"]').send_keys(a)
+        self.driver.find_element(By.ID, 'search-term').send_keys(a)
         # 点击在所有话题和帖子中
         self.driver.find_element(By.XPATH,
                                  '//*[@id="ember6"]/header/div/div/div[2]/div/div/div/div/div[2]/ul/li/a/span[2]/span[2]').click()
