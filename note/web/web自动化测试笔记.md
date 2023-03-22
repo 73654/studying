@@ -667,11 +667,11 @@ def wait_until():
             (By.CSS_SELECTOR, '#success_btn')))
     driver.find_element(By.CSS_SELECTOR, "#success_btn").click()
 ```
-**常见 expected_conditions**
+#### 常见 expected_conditions
 
 ![img_28.png](img_28.png)
 
-**显式等待-封装等待条件**
+#### 显式等待-封装等待条件
 
 * 官方的 excepted_conditions 不可能覆盖所有场景
 * 定制封装条件会更加灵活、可控
