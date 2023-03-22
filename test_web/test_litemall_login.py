@@ -29,13 +29,13 @@ class TestLitemallLogin:
             # 打开litemall首页
             self.driver.get("http://litemall.hogwarts.ceshiren.com/#/dashboard")
             # 找账号输入框元素
-            user = self.driver.find_element(By.XPATH, '//*[@id="app"]/div/form/div[2]/div/div/input')
+            user = self.driver.find_element(By.NAME, 'username')
             # 清空输入框内容
             user.clear()
             # 输入指定账号
             user.send_keys(username)
             # 找密码输入框元素
-            password = self.driver.find_element(By.XPATH, '//*[@id="app"]/div/form/div[3]/div/div/input')
+            password = self.driver.find_element(By.NAME, 'password')
             # 清空输入框内容
             password.clear()
             # 输入指定密码
