@@ -441,3 +441,516 @@ class TestSearch:
         names = [ele.text for ele in elements]
         assert '关于霍格沃兹测试开发学社' in names
 ```
+## 用户端 Web自动化测试实战2
+**知识点梳理**
+
+![img_13.png](img_13.png)
+
+实战一目标
+* 掌握元素高级定位技巧
+* 熟悉高级元素等待的用法
+* 了解多窗口处理
+
+**相关知识点**
+
+![img_14.png](img_14.png)
+### 高级定位-css
+* css 选择器概念
+* css 相对定位使用场景
+* css 语法与实战
+
+**概念**
+
+* css 选择器有自己的语法规则和表达式
+* css 定位通常分为绝对定位和相对定位
+* 和Xpath一起常用于UI自动化测试中的元素定位
+
+**场景**
+
+* 支持web产品
+* 支持app端的webview
+
+![img_15.png](img_15.png)
+![img_16.png](img_16.png)
+**优点**
+* 可维护性更强
+* 语法更加简洁
+* 解决各种复杂的定位场景
+
+```python
+# 绝对定位
+$("#ember63 > td.main-link.clearfix.topic-list-data > span > span > a")
+# 相对定位
+$("#ember63 [title='新话题']")
+```
+**调试方法**
+* 进入浏览器的console
+* 输入:
+  * $("css表达式")
+  * 或者$$("css表达式")
+
+![img_17.png](img_17.png)
+
+**css基础语法**
+
+![img_18.png](img_18.png)
+```python
+//在console中的写法
+// https://www.baidu.com/
+//标签名
+$('input')
+//.类属性值
+$('.s_ipt')
+//#id属性值
+$('#kw')
+//[属性名='属性值']
+$('[name="wd"]')
+```
+**css关系定位**
+
+![img_19.png](img_19.png)
+
+```python
+//在console中的写法
+//元素,元素
+$('.bg,.s_ipt_wr,.new-pmd,.quickdelete-wrap')
+//元素>元素
+$('#s_kw_wrap>input')
+//元素 元素
+$('#form input')
+//元素+元素，了解即可
+$('.soutu-btn+input')
+//元素1~元素2，了解即可
+$('.soutu-btn~i')
+```
+**css 顺序关系**
+
+![img_20.png](img_20.png)
+
+```python
+//:nth-child(n)
+$('#form>input:nth-child(2)')
+//:nth-of-type(n)
+$('#form>input:nth-of-type(1)')
+```
+
+**课堂练习**
+![img_25.png](img_25.png)
+```python
+#  通过 id 属性定位页面中的【id】标签
+$("#located_id")
+#  通过 class 属性定位页面中的【class】标签
+$(".el-button.mr-5.locate_class_name.el-button--primary")
+#  通过父子关系定位页面中的【father】标签
+$(".grandfather>.father")
+#  通过顺序关系定位到页面中的【sister】标签
+$(".father>div:nth-child(4)")
+```
+### 高级定位-xpath
+
+**概念**
+* XPath 是一门在 XML 文档中查找信息的语言
+* XPath 使用路径表达式在 XML 文档中进行导航
+* XPath 的应用非常广泛
+* XPath 可以应用在UI自动化测试
+
+**场景**
+
+* web自动化测试
+![img_21.png](img_21.png)
+* app自动化测试
+![img_22.png](img_22.png)
+
+**优点**
+* 可维护性更强
+* 语法更加简洁
+* 相比于css可以支持更多的方式
+![img_23.png](img_23.png)
+
+```python
+# 复制的绝对定位
+$x('//*[@id="ember75"]/td[1]/span/a')
+# 编写的相对行为
+$x("//*[text()='技术分享 | SeleniumIDE用例录制']")
+```
+
+**调试方法**
+* 浏览器-console
+  * $x("xpath表达式")
+* 浏览器-elements
+  * ctrl+f 输入xpath或者css
+  
+**基础语法（包含关系）**
+![img_24.png](img_24.png)
+```python
+# 整个页面
+$x("/")
+# 页面中的所有的子元素
+$x("/*")
+# 整个页面中的所有元素
+$x("//*")
+# 查找页面上面所有的div标签节点
+$x("//div")
+# 查找id属性为site-logo的节点
+$x('//*[@id="site-logo"]')
+# 查找节点的父节点
+$x('//*[@id="site-logo"]/..')
+```
+**顺序关系（索引）**
+
+* xpath通过索引直接获取对应元素
+```python
+# 获取此节点下的所有的li元素
+$x("//*[@id='ember21']//li")
+# 获取此节点下【所有的节点的】第一个li元素
+$x("//*[@id='ember21']//li[1]")
+```
+
+**xpath 高级用法**
+```python
+[last()]: 选取最后一个
+[@属性名='属性值' and @属性名='属性值']: 与关系
+[@属性名='属性值' or @属性名='属性值']: 或关系
+[text()='文本信息']: 根据文本信息定位
+[contains(text(),'文本信息')]: 根据文本信息包含定位
+注意：所有的表达式需要和[]结合
+```
+
+```python
+# 选取最后一个input标签
+//input[last()]
+# 选取属性name的值为passward并且属性pwd的值为123456的input标签
+//input[@name='passward' and @pwd='123456']
+# 选取属性name的值为passward或属性pwd的值为123456的input标签
+//input[@name='passward' or @pwd='123456']
+# 选取所有文本信息为'霍格沃兹测试开发'的元素
+//*[text()='霍格沃兹测试开发']
+# 选取所有文本信息包'霍格沃兹'的元素
+//*[contains(text(),'霍格沃兹')]
+```
+**课堂练习**
+
+![img_26.png](img_26.png)
+
+```python
+# 通过 id 属性定位页面中的【id】标签
+$x("//*[@id='located_id']")
+# 通过 class 属性定位页面中的【class】标签
+$x("//*[@class='el-button mr-5 locate_class_name el-button--primary']")
+# 通过顺序关系定位到页面中的【sister】标签
+$x("//*[@class='pos father']/div[2]")
+# 通过文本内容定位到页面中的【brother】标签
+$x("//*[text()='brother']")
+```
+
+### 显式等待高级使用
+
+#### 原理
+* 在代码中定义等待一定条件发生后再进一步执行代码
+* 在最长等待时间内循环执行结束条件的函数
+* WebDriverWait(driver 实例, 最长等待时间, 轮询时间).until(结束条件函数)
+
+![img_27.png](img_27.png)
+
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.wait import WebDriverWait
+
+
+def wait_until():
+    driver = webdriver.Chrome()
+    driver.get("https://vip.ceshiren.com/#/ui_study")
+    WebDriverWait(driver, 10).until(
+        expected_conditions.element_to_be_clickable(
+            (By.CSS_SELECTOR, '#success_btn')))
+    driver.find_element(By.CSS_SELECTOR, "#success_btn").click()
+```
+**常见 expected_conditions**
+
+![img_28.png](img_28.png)
+
+**显式等待-封装等待条件**
+
+* 官方的 excepted_conditions 不可能覆盖所有场景
+* 定制封装条件会更加灵活、可控
+
+```python
+import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.webdriver import WebDriver
+from selenium.webdriver.support.wait import WebDriverWait
+
+
+class TestWebdriverWait:
+
+    driver = webdriver.Chrome()
+
+    driver.maximize_window()
+    driver.implicitly_wait(5)
+    driver.get("https://vip.ceshiren.com/#/ui_study")
+    def teardown(self):
+        self.driver.quit()
+    def test_webdriver_wait(self):
+        # 解决的问题：有的按钮点击一次没有反应，可能要点击多次，比如企业微信的添加成员
+        # 解决的方案：一直点击按钮，直到下个页面出现，封装成显式等待的一个条件
+        def muliti_click(button_element,until_ele):
+            # 函数封装
+            def inner(driver):
+                # 封装点击方法
+                driver.find_element(By.XPATH,button_element).click()
+                return driver.find_element(By.XPATH,until_ele)
+            return inner
+        time.sleep(5)
+        # 在限制时间内会一直点击按钮，直到展示弹框
+        WebDriverWait(self.driver,10).until(muliti_click("//*[text()='点击两次响应']","//*[text()='该弹框点击两次后才会弹出']"))
+        time.sleep(5)
+```
+
+### 网页 frame 与多窗口处理
+
+#### 场景
+
+* 点击某些链接，会重新打开⼀个窗口
+
+#### 多窗口的操作方法
+
+* driver.current_window_handle:获取当前句柄
+* driver.window_handles:获取所有句柄
+* driver.switch_to.window():跳转到其他窗口
+
+**多窗口切换案例**
+![img_29.png](img_29.png)
+```python
+import time
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+
+def test_window_handle():
+
+    # 打开浏览器并访问百度页面
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    driver.implicitly_wait(5)
+    driver.get("https://www.baidu.com/")
+
+    # 获取百度页面窗口句柄
+    baidu_handle = driver.current_window_handle
+
+    # 点击登录链接并切换窗口
+    driver.find_element(By.LINK_TEXT, "登录").click()
+    for handle in driver.window_handles:
+        if handle != baidu_handle:
+            driver.switch_to.window(handle)
+
+    # 在登录框中点击‘立即注册’链接，跳转到注册页面并输入用户名和账号
+    driver.find_element(By.LINK_TEXT, "立即注册").click()
+    for handle in driver.window_handles:
+        if handle != baidu_handle and handle != driver.current_window_handle:
+            driver.switch_to.window(handle)
+            driver.find_element(By.ID, "TANGRAM__PSP_4__userName").send_keys("username")
+            driver.find_element(By.ID, "TANGRAM__PSP_4__phone").send_keys("1234567890")
+            driver.close()
+            driver.switch_to.window(driver.window_handles[-1])
+
+    # 返回百度页面，输入用户名和密码，点击登录
+    driver.switch_to.window(baidu_handle)
+    time.sleep(3)
+```
+
+#### frame 基本概念
+
+* frameset
+* frame
+* iframe
+
+#### frame 常用操作方法
+
+* driver.switch_to.frame(frame 元素对象)
+
+**frame 切换案例**
+![img_30.png](img_30.png)
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+
+def test_frame_deal_1():
+    driver = webdriver.Chrome()
+    driver.implicitly_wait(5)
+    # 打开网页
+    driver.get("https://www.runoob.com/try/try.php?filename=jqueryui-api-droppable")
+
+    # 定位iframe元素
+    frame = driver.find_element(By.ID, 'iframeResult')
+    # 切换到指定frame
+    driver.switch_to.frame(frame)
+    print(driver.find_element(By.ID, "droppable").text)
+
+    # 切换frame
+    driver.switch_to.parent_frame()
+    print(driver.find_element(By.ID, "submitBTN").text)
+```
+### 实战二目标
+* 学会自动化关键数据记录
+  1. 获取页面源码
+  2. 记录操作日志
+  3. 保存屏幕截图
+
+#### 什么是关键数据
+
+* 代码的执行日志
+* 代码执行的截图
+* page source（页面源代码）
+
+**记录关键数据的作用**
+
+![img_31.png](img_31.png)
+
+#### 行为日志记录
+* 日志配置
+* 脚本日志级别
+  * debug记录步骤信息
+  * info记录关键信息，比如断言等
+```python
+# 日志配置
+import logging
+# 创建logger实例
+logger = logging.getLogger('simple_example')
+# 设置日志级别
+logger.setLevel(logging.DEBUG)
+# 流处理器
+ch = logging.StreamHandler()
+ch.setLevel(logging.DEBUG)
+# 日志打印格式
+formatter = logging.Formatter\
+('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+# 添加格式配置
+ch.setFormatter(formatter)
+# 添加日志配置
+logger.addHandler(ch)
+```
+```python
+# 日志与脚本结合
+class TestDataRecord:
+    def setup_class(self):
+        self.driver = webdriver.Chrome()
+        self.driver.implicitly_wait(3)
+    
+    def teardown_class(self):
+        self.driver.quit()
+
+    def test_log_data_record(self):
+        # 实例化self.driver
+        search_content = "霍格沃兹测试开发"
+        # 打开百度首页
+        self.driver.get("https://www.sogou.com/")
+        logger.debug("打开搜狗首页")
+        # 输入霍格沃兹测试学院
+        self.driver.find_element(By.CSS_SELECTOR, "#query").\
+        send_keys(search_content)
+        logger.debug(f"搜索的内容为{search_content}")
+        # 点击搜索
+        self.driver.find_element(By.CSS_SELECTOR, "#stb").click()
+        # 搜索结果
+        search_res = self.driver.find_element(By.CSS_SELECTOR, "em")
+        logger.info(f"搜索结果为{search_res.text}")
+        assert search_res.text == search_content
+```
+
+#### 步骤截图记录
+
+* save_screenshot(截图路径+名称)
+* 记录关键页面
+  * 断言页面
+  * 重要的业务场景页面
+  * 容易出错的页面
+
+```python
+# 调用save方法截图并保存保存在当前路径下的images文件夹下
+driver.save_screenshot('./images/search1.png')
+```
+
+#### page_source记录
+
+* 使用page_source属性获取页面源码
+* 在调试过程中，如果有找不到元素的错误可以保存当时的page_source调试代码
+
+```python
+# 在报错行前面添加保存page_source的操作
+with open("record.html", "w", encoding="u8") as f:
+    f.write(self.driver.page_source)
+```
+
+### 测试人论坛实战练习
+![img_32.png](img_32.png)
+#### 需求说明
+
+* 优化测试人论坛的 Web 自动化测试
+  * 使用高级定位方式和显示等待
+  * 记录关键日志和截图
+  * 生成测试报告
+
+#### 实战思路
+
+![img_33.png](img_33.png)
+
+#### 题目解析
+
+```python
+import allure
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.wait import WebDriverWait
+
+from utils.log_util import logger
+
+
+class TestSearch:
+
+    def setup_class(self):
+        logger.debug('打开浏览器')
+        self.driver = webdriver.Chrome()
+        self.driver.implicitly_wait(5)
+
+    def teardown_class(self):
+        self.driver.quit()
+
+    def test_search(self):
+        logger.debug('打开网页')
+        self.driver.get("https://ceshiren.com/")
+        logger.debug('点击搜索')
+        self.driver.find_element(By.ID, "search-button").click()
+        logger.debug('输入搜索的内容')
+        self.driver.find_element(By.ID, "search-term").send_keys("霍格沃兹测试开发")
+        self.driver.find_element(By.CLASS_NAME, "keyword").click()
+        logger.debug('点击搜索结果条目')
+
+        # 显示等待
+        WebDriverWait(self.driver, 10).until(
+            expected_conditions.element_to_be_clickable((By.XPATH, '//span[contains(text(), "关于")]'))
+        )
+        self.driver.find_element(By.XPATH, '//span[contains(text(), "关于")]').click()
+
+        logger.debug('完成断言')
+        title = self.driver.find_element(By.CSS_SELECTOR, '.fancy-title').text
+        logger.info(f"帖子标题为：{title}")
+
+        # 保存页面源码
+        page_source_path = f"./page_source.html"
+        with open(page_source_path, "w", encoding="u8") as f:
+            f.write(self.driver.page_source)
+        allure.attach.file(page_source_path, name="page_source", attachment_type=allure.attachment_type.TEXT)
+
+        # 屏幕截图
+        image_path = f"./images/image.png"
+        self.driver.save_screenshot(image_path)
+        allure.attach.file(image_path, name="image", attachment_type=allure.attachment_type.PNG)
+
+        assert title == '关于霍格沃兹测试开发学社'
+```

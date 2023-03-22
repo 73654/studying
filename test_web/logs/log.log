@@ -1,0 +1,154 @@
+[2023-03-22 17:19:55] [INFO] [test_frame.py]/[line: 22]/[test_switch_frame] 打开网页 
+[2023-03-22 17:19:57] [INFO] [test_frame.py]/[line: 25]/[test_switch_frame] 定位 iframe 元素 
+[2023-03-22 17:19:57] [INFO] [test_frame.py]/[line: 28]/[test_switch_frame] 切换到 iframe 当中 
+[2023-03-22 17:19:57] [INFO] [test_frame.py]/[line: 31]/[test_switch_frame] 切换后,可以对 iframe 中的元素进行操作,定位练习按钮 
+[2023-03-22 17:19:58] [INFO] [test_frame.py]/[line: 36]/[test_switch_frame] 切换回原来的 frame 
+[2023-03-22 17:19:58] [INFO] [test_frame.py]/[line: 39]/[test_switch_frame] 定位原来 frame 中的元素 
+[2023-03-22 17:25:59] [INFO] [test_frame.py]/[line: 22]/[test_switch_frame] 打开网页 
+[2023-03-22 17:26:01] [INFO] [test_frame.py]/[line: 25]/[test_switch_frame] 定位 iframe 元素 
+[2023-03-22 17:26:01] [INFO] [test_frame.py]/[line: 28]/[test_switch_frame] 切换到 iframe 当中 
+[2023-03-22 17:26:01] [INFO] [test_frame.py]/[line: 31]/[test_switch_frame] 切换后,可以对 iframe 中的元素进行操作,定位练习按钮 
+[2023-03-22 17:26:01] [INFO] [test_frame.py]/[line: 39]/[test_switch_frame] 切换回原来的 frame 
+[2023-03-22 17:26:01] [INFO] [test_frame.py]/[line: 42]/[test_switch_frame] 定位原来 frame 中的元素 
+[2023-03-22 17:27:51] [INFO] [test_frame.py]/[line: 22]/[test_switch_frame] 打开网页 
+[2023-03-22 17:27:53] [INFO] [test_frame.py]/[line: 28]/[test_switch_frame] 定位 iframe 元素 
+[2023-03-22 17:27:53] [INFO] [test_frame.py]/[line: 31]/[test_switch_frame] 切换到 iframe 当中 
+[2023-03-22 17:27:53] [INFO] [test_frame.py]/[line: 34]/[test_switch_frame] 切换后,可以对 iframe 中的元素进行操作,定位练习按钮 
+[2023-03-22 17:27:53] [INFO] [test_frame.py]/[line: 42]/[test_switch_frame] 切换回原来的 frame 
+[2023-03-22 17:27:53] [INFO] [test_frame.py]/[line: 45]/[test_switch_frame] 定位原来 frame 中的元素 
+[2023-03-22 17:39:34] [INFO] [test_frame.py]/[line: 25]/[test_switch_frame] 打开网页 
+[2023-03-22 17:39:36] [INFO] [test_frame.py]/[line: 28]/[test_switch_frame] 输入切换前源码到 record.html 文件中 
+[2023-03-22 17:39:36] [INFO] [test_frame.py]/[line: 34]/[test_switch_frame] 定位 iframe 元素 
+[2023-03-22 17:39:36] [INFO] [test_frame.py]/[line: 37]/[test_switch_frame] 切换到 iframe 当中 
+[2023-03-22 17:39:36] [INFO] [test_frame.py]/[line: 40]/[test_switch_frame] 切换后,可以对 iframe 中的元素进行操作,定位练习按钮 
+[2023-03-22 17:39:36] [INFO] [test_frame.py]/[line: 48]/[test_switch_frame] 输入切换后源码到 new_record.html 文件中 
+[2023-03-22 17:39:37] [INFO] [test_frame.py]/[line: 53]/[test_switch_frame] 切换回原来的 frame 
+[2023-03-22 17:39:37] [INFO] [test_frame.py]/[line: 56]/[test_switch_frame] 定位原来 frame 中的元素 
+[2023-03-22 17:53:43] [INFO] [test_ceshiren_search.py]/[line: 30]/[test_ceshiren_search] 打开测试人首页 
+[2023-03-22 17:53:46] [INFO] [test_ceshiren_search.py]/[line: 32]/[test_ceshiren_search] 输入首页源码到 home_record.html 文件中 
+[2023-03-22 17:53:46] [INFO] [test_ceshiren_search.py]/[line: 38]/[test_ceshiren_search] 点击搜索按钮元素 
+[2023-03-22 17:53:46] [INFO] [test_ceshiren_search.py]/[line: 41]/[test_ceshiren_search] 找搜索框元素 
+[2023-03-22 17:53:46] [INFO] [test_ceshiren_search.py]/[line: 44]/[test_ceshiren_search] 点击在所有话题和帖子中 
+[2023-03-22 17:53:46] [INFO] [test_ceshiren_search.py]/[line: 47]/[test_ceshiren_search] 获取元素内容 
+[2023-03-22 17:53:47] [INFO] [test_ceshiren_search.py]/[line: 51]/[test_ceshiren_search] 获取到元素后截图 
+[2023-03-22 17:53:47] [INFO] [test_ceshiren_search.py]/[line: 55]/[test_ceshiren_search] 断言结果是否正确 
+[2023-03-22 17:53:51] [INFO] [test_ceshiren_search.py]/[line: 30]/[test_ceshiren_search] 打开测试人首页 
+[2023-03-22 17:53:54] [INFO] [test_ceshiren_search.py]/[line: 32]/[test_ceshiren_search] 输入首页源码到 home_record.html 文件中 
+[2023-03-22 17:53:54] [INFO] [test_ceshiren_search.py]/[line: 38]/[test_ceshiren_search] 点击搜索按钮元素 
+[2023-03-22 17:53:55] [INFO] [test_ceshiren_search.py]/[line: 41]/[test_ceshiren_search] 找搜索框元素 
+[2023-03-22 17:53:55] [INFO] [test_ceshiren_search.py]/[line: 44]/[test_ceshiren_search] 点击在所有话题和帖子中 
+[2023-03-22 17:53:55] [INFO] [test_ceshiren_search.py]/[line: 47]/[test_ceshiren_search] 获取元素内容 
+[2023-03-22 17:53:55] [INFO] [test_ceshiren_search.py]/[line: 51]/[test_ceshiren_search] 获取到元素后截图 
+[2023-03-22 17:53:56] [INFO] [test_ceshiren_search.py]/[line: 55]/[test_ceshiren_search] 断言结果是否正确 
+[2023-03-22 18:00:38] [INFO] [test_ceshiren_search.py]/[line: 30]/[test_ceshiren_search] 打开测试人首页 
+[2023-03-22 18:00:41] [INFO] [test_ceshiren_search.py]/[line: 32]/[test_ceshiren_search] 输入首页源码到 home_record.html 文件中 
+[2023-03-22 18:00:41] [INFO] [test_ceshiren_search.py]/[line: 37]/[test_ceshiren_search] 获取到元素前截图 
+[2023-03-22 18:00:42] [INFO] [test_ceshiren_search.py]/[line: 42]/[test_ceshiren_search] 点击搜索按钮元素 
+[2023-03-22 18:00:42] [INFO] [test_ceshiren_search.py]/[line: 45]/[test_ceshiren_search] 找搜索框元素 
+[2023-03-22 18:00:42] [INFO] [test_ceshiren_search.py]/[line: 48]/[test_ceshiren_search] 点击在所有话题和帖子中 
+[2023-03-22 18:00:42] [INFO] [test_ceshiren_search.py]/[line: 51]/[test_ceshiren_search] 获取元素内容 
+[2023-03-22 18:00:42] [INFO] [test_ceshiren_search.py]/[line: 55]/[test_ceshiren_search] 获取到元素后截图 
+[2023-03-22 18:00:42] [INFO] [test_ceshiren_search.py]/[line: 59]/[test_ceshiren_search] 断言结果是否正确 
+[2023-03-22 18:00:46] [INFO] [test_ceshiren_search.py]/[line: 30]/[test_ceshiren_search] 打开测试人首页 
+[2023-03-22 18:00:49] [INFO] [test_ceshiren_search.py]/[line: 32]/[test_ceshiren_search] 输入首页源码到 home_record.html 文件中 
+[2023-03-22 18:00:50] [INFO] [test_ceshiren_search.py]/[line: 37]/[test_ceshiren_search] 获取到元素前截图 
+[2023-03-22 18:00:50] [INFO] [test_ceshiren_search.py]/[line: 42]/[test_ceshiren_search] 点击搜索按钮元素 
+[2023-03-22 18:00:50] [INFO] [test_ceshiren_search.py]/[line: 45]/[test_ceshiren_search] 找搜索框元素 
+[2023-03-22 18:00:50] [INFO] [test_ceshiren_search.py]/[line: 48]/[test_ceshiren_search] 点击在所有话题和帖子中 
+[2023-03-22 18:00:50] [INFO] [test_ceshiren_search.py]/[line: 51]/[test_ceshiren_search] 获取元素内容 
+[2023-03-22 18:00:51] [INFO] [test_ceshiren_search.py]/[line: 55]/[test_ceshiren_search] 获取到元素后截图 
+[2023-03-22 18:00:51] [INFO] [test_ceshiren_search.py]/[line: 59]/[test_ceshiren_search] 断言结果是否正确 
+[2023-03-22 18:01:31] [INFO] [test_ceshiren_search.py]/[line: 30]/[test_ceshiren_search] 打开测试人首页 
+[2023-03-22 18:01:34] [INFO] [test_ceshiren_search.py]/[line: 32]/[test_ceshiren_search] 输入首页源码到 home_record.html 文件中 
+[2023-03-22 18:01:34] [INFO] [test_ceshiren_search.py]/[line: 37]/[test_ceshiren_search] 获取到元素前截图 
+[2023-03-22 18:01:34] [INFO] [test_ceshiren_search.py]/[line: 42]/[test_ceshiren_search] 点击搜索按钮元素 
+[2023-03-22 18:01:34] [INFO] [test_ceshiren_search.py]/[line: 45]/[test_ceshiren_search] 找搜索框元素 
+[2023-03-22 18:01:35] [INFO] [test_ceshiren_search.py]/[line: 48]/[test_ceshiren_search] 点击在所有话题和帖子中 
+[2023-03-22 18:01:35] [INFO] [test_ceshiren_search.py]/[line: 51]/[test_ceshiren_search] 获取元素内容 
+[2023-03-22 18:01:35] [INFO] [test_ceshiren_search.py]/[line: 55]/[test_ceshiren_search] 获取到元素后截图 
+[2023-03-22 18:01:35] [INFO] [test_ceshiren_search.py]/[line: 59]/[test_ceshiren_search] 断言结果是否正确 
+[2023-03-22 18:01:39] [INFO] [test_ceshiren_search.py]/[line: 30]/[test_ceshiren_search] 打开测试人首页 
+[2023-03-22 18:01:42] [INFO] [test_ceshiren_search.py]/[line: 32]/[test_ceshiren_search] 输入首页源码到 home_record.html 文件中 
+[2023-03-22 18:01:42] [INFO] [test_ceshiren_search.py]/[line: 37]/[test_ceshiren_search] 获取到元素前截图 
+[2023-03-22 18:01:42] [INFO] [test_ceshiren_search.py]/[line: 42]/[test_ceshiren_search] 点击搜索按钮元素 
+[2023-03-22 18:01:43] [INFO] [test_ceshiren_search.py]/[line: 45]/[test_ceshiren_search] 找搜索框元素 
+[2023-03-22 18:01:43] [INFO] [test_ceshiren_search.py]/[line: 48]/[test_ceshiren_search] 点击在所有话题和帖子中 
+[2023-03-22 18:01:43] [INFO] [test_ceshiren_search.py]/[line: 51]/[test_ceshiren_search] 获取元素内容 
+[2023-03-22 18:01:43] [INFO] [test_ceshiren_search.py]/[line: 55]/[test_ceshiren_search] 获取到元素后截图 
+[2023-03-22 18:01:43] [INFO] [test_ceshiren_search.py]/[line: 59]/[test_ceshiren_search] 断言结果是否正确 
+[2023-03-22 18:02:53] [INFO] [test_ceshiren_search.py]/[line: 30]/[test_ceshiren_search] 打开测试人首页 
+[2023-03-22 18:02:55] [INFO] [test_ceshiren_search.py]/[line: 32]/[test_ceshiren_search] 输入首页源码到 home_record.html 文件中 
+[2023-03-22 18:02:55] [INFO] [test_ceshiren_search.py]/[line: 37]/[test_ceshiren_search] 获取到元素前截图 
+[2023-03-22 18:02:56] [INFO] [test_ceshiren_search.py]/[line: 42]/[test_ceshiren_search] 点击搜索按钮元素 
+[2023-03-22 18:02:56] [INFO] [test_ceshiren_search.py]/[line: 45]/[test_ceshiren_search] 找搜索框元素 
+[2023-03-22 18:02:56] [INFO] [test_ceshiren_search.py]/[line: 48]/[test_ceshiren_search] 点击在所有话题和帖子中 
+[2023-03-22 18:02:56] [INFO] [test_ceshiren_search.py]/[line: 51]/[test_ceshiren_search] 获取元素内容 
+[2023-03-22 18:02:56] [INFO] [test_ceshiren_search.py]/[line: 55]/[test_ceshiren_search] 获取到元素后截图 
+[2023-03-22 18:02:57] [INFO] [test_ceshiren_search.py]/[line: 59]/[test_ceshiren_search] 断言结果是否正确 
+[2023-03-22 18:03:00] [INFO] [test_ceshiren_search.py]/[line: 30]/[test_ceshiren_search] 打开测试人首页 
+[2023-03-22 18:03:05] [INFO] [test_ceshiren_search.py]/[line: 32]/[test_ceshiren_search] 输入首页源码到 home_record.html 文件中 
+[2023-03-22 18:03:05] [INFO] [test_ceshiren_search.py]/[line: 37]/[test_ceshiren_search] 获取到元素前截图 
+[2023-03-22 18:03:06] [INFO] [test_ceshiren_search.py]/[line: 42]/[test_ceshiren_search] 点击搜索按钮元素 
+[2023-03-22 18:03:06] [INFO] [test_ceshiren_search.py]/[line: 45]/[test_ceshiren_search] 找搜索框元素 
+[2023-03-22 18:03:06] [INFO] [test_ceshiren_search.py]/[line: 48]/[test_ceshiren_search] 点击在所有话题和帖子中 
+[2023-03-22 18:03:06] [INFO] [test_ceshiren_search.py]/[line: 51]/[test_ceshiren_search] 获取元素内容 
+[2023-03-22 18:03:07] [INFO] [test_ceshiren_search.py]/[line: 55]/[test_ceshiren_search] 获取到元素后截图 
+[2023-03-22 18:03:07] [INFO] [test_ceshiren_search.py]/[line: 59]/[test_ceshiren_search] 断言结果是否正确 
+[2023-03-22 19:21:49] [INFO] [test_litemall_login.py]/[line: 38]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:21:57] [INFO] [test_litemall_login.py]/[line: 38]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:22:05] [INFO] [test_litemall_login.py]/[line: 38]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:23:35] [INFO] [test_litemall_login.py]/[line: 38]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:23:41] [INFO] [test_litemall_login.py]/[line: 38]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:25:08] [INFO] [test_litemall_login.py]/[line: 35]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:25:41] [INFO] [test_litemall_login.py]/[line: 67]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:25:41] [INFO] [test_litemall_login.py]/[line: 72]/[test_litemail_login] 截图首页 
+[2023-03-22 19:25:50] [INFO] [test_litemall_login.py]/[line: 67]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:25:50] [INFO] [test_litemall_login.py]/[line: 72]/[test_litemail_login] 截图首页 
+[2023-03-22 19:30:09] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:30:17] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:30:25] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:32:58] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:34:19] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:35:07] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:35:33] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:35:41] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:37:09] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:37:09] [INFO] [test_litemall_login.py]/[line: 67]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:37:09] [INFO] [test_litemall_login.py]/[line: 72]/[test_litemail_login] 截图首页 
+[2023-03-22 19:37:17] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:37:18] [INFO] [test_litemall_login.py]/[line: 67]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:37:18] [INFO] [test_litemall_login.py]/[line: 72]/[test_litemail_login] 截图首页 
+[2023-03-22 19:37:26] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:37:30] [INFO] [test_litemall_login.py]/[line: 77]/[test_litemail_login] 登录失败! 
+[2023-03-22 19:40:51] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:40:52] [INFO] [test_litemall_login.py]/[line: 67]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:40:52] [INFO] [test_litemall_login.py]/[line: 72]/[test_litemail_login] 截图首页 
+[2023-03-22 19:41:00] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:41:01] [INFO] [test_litemall_login.py]/[line: 67]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:41:01] [INFO] [test_litemall_login.py]/[line: 72]/[test_litemail_login] 截图首页 
+[2023-03-22 19:41:09] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:41:13] [INFO] [test_litemall_login.py]/[line: 77]/[test_litemail_login] 登录失败! 
+[2023-03-22 19:45:38] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:45:39] [INFO] [test_litemall_login.py]/[line: 67]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:45:39] [INFO] [test_litemall_login.py]/[line: 72]/[test_litemail_login] 截图首页 
+[2023-03-22 19:45:47] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:45:48] [INFO] [test_litemall_login.py]/[line: 67]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:45:48] [INFO] [test_litemall_login.py]/[line: 72]/[test_litemail_login] 截图首页 
+[2023-03-22 19:45:56] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:46:00] [INFO] [test_litemall_login.py]/[line: 77]/[test_litemail_login] 登录失败! 
+[2023-03-22 19:47:59] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:48:00] [INFO] [test_litemall_login.py]/[line: 67]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:48:00] [INFO] [test_litemall_login.py]/[line: 72]/[test_litemail_login] 截图首页 
+[2023-03-22 19:48:08] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:48:09] [INFO] [test_litemall_login.py]/[line: 67]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:48:09] [INFO] [test_litemall_login.py]/[line: 72]/[test_litemail_login] 截图首页 
+[2023-03-22 19:48:16] [INFO] [test_litemall_login.py]/[line: 36]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:48:20] [INFO] [test_litemall_login.py]/[line: 77]/[test_litemail_login] 登录失败! 
+[2023-03-22 19:51:35] [INFO] [test_litemall_login.py]/[line: 37]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:51:36] [INFO] [test_litemall_login.py]/[line: 68]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:51:36] [INFO] [test_litemall_login.py]/[line: 73]/[test_litemail_login] 截图首页 
+[2023-03-22 19:51:45] [INFO] [test_litemall_login.py]/[line: 37]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:51:46] [INFO] [test_litemall_login.py]/[line: 68]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:51:46] [INFO] [test_litemall_login.py]/[line: 73]/[test_litemail_login] 截图首页 
+[2023-03-22 19:51:53] [INFO] [test_litemall_login.py]/[line: 37]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:51:57] [INFO] [test_litemall_login.py]/[line: 78]/[test_litemail_login] 登录失败! 

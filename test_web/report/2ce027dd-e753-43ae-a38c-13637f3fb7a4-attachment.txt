@@ -1,0 +1,3 @@
+[2023-03-22 19:51:35] [INFO] [test_litemall_login.py]/[line: 37]/[test_litemail_login] 截图登录页面 
+[2023-03-22 19:51:36] [INFO] [test_litemall_login.py]/[line: 68]/[test_litemail_login] 登录成功!输出首页源码到home_record文件中 
+[2023-03-22 19:51:36] [INFO] [test_litemall_login.py]/[line: 73]/[test_litemail_login] 截图首页 
