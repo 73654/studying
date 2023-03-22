@@ -1,3 +1,0 @@
-[32mINFO    [0m test_web.until.log_until:test_litemall_login.py:37 截图登录页面
-[32mINFO    [0m test_web.until.log_until:test_litemall_login.py:68 登录成功!输出首页源码到home_record文件中
-[32mINFO    [0m test_web.until.log_until:test_litemall_login.py:73 截图首页
