@@ -1,2 +1,0 @@
-[32mINFO    [0m test_web.until.log_until:test_litemall_login.py:37 截图登录页面
-[32mINFO    [0m test_web.until.log_until:test_litemall_login.py:78 登录失败!
