@@ -954,3 +954,167 @@ class TestSearch:
 
         assert title == '关于霍格沃兹测试开发学社'
 ```
+
+## 用户端 Web自动化测试实战3
+
+**知识点梳理**
+
+![img_34.png](img_34.png)
+
+**实战一目标**
+
+* 使用 chrome debug 模式完成自动化测试
+* 使用 web 自动化完成测试人论坛搜索功能测试
+* 主页->搜索->搜索页面->搜索结果断言
+
+**相关知识点**
+
+![img_35.png](img_35.png)
+
+### 浏览器复用
+
+#### 复用浏览器简介
+![img_36.png](img_36.png)
+![img_37.png](img_37.png)
+
+#### 为什么要学习复用浏览器
+* 自动化测试过程中，存在人为介入场景
+* 提高调试UI自动化测试脚本效率
+
+**复用已有浏览器-配置步骤**
+
+* 需要退出当前所有的谷歌浏览器（特别注意）
+* 输入启动命令，通过命令启动谷歌浏览器
+  * 找到 chrome 的启动路径
+  * 配置环境变量
+* 验证是否启动成功
+
+```angular2html
+windows：chrome –remote-debugging-port=9222
+mac：Google Chrome –remote-debugging-port=9222
+```
+
+#### 代码设置
+
+```python
+from selenium.webdriver.chrome.options import Options
+option = Options()
+option.debugger_address = "localhost:9222"
+self._driver = webdriver.Chrome(options=option)
+self._driver.get("https://work.weixin.qq.com/wework_admin/frame")
+```
+
+**实战二目标**
+
+* 使用page object设计模式 完成测试人论坛搜索自动化测试
+* 主页->搜索->搜索页面->搜索结果断言
+
+**相关知识点**
+
+![img_38.png](img_38.png)
+
+### page object
+
+#### page object 模式简介
+
+![img_39.png](img_39.png)
+
+#### 传统 UI 自动化的问题
+
+* 无法适应 UI 频繁变化
+* 无法清晰表达业务用例场景
+* 大量的样板代码 driver/find/click
+
+#### POM 模式的优势
+
+* 降低 UI 变化导致的测试用例脆弱性问题
+* 让用例清晰明朗，与具体实现无关
+
+#### POM 建模原则
+
+* 字段意义
+  * 不要暴露页面内部的元素给外部
+  * 不需要建模 UI 内的所有元素
+* 方法意义
+  * 用公共方法代表 UI 所提供的功能
+  * 方法应该返回其他的 PageObject 或者返回用于断言的数据
+  * 同样的行为不同的结果可以建模为不同的方法
+  * 不要在方法内加断言
+
+#### POM 使用方法
+
+* 把元素信息和操作细节封装到 PageObject 类中
+* 根据业务逻辑，在测试用例中链式调用
+
+### 实战三目标
+
+* 掌握复用浏览器的使用
+* 利用远程调试技术实现自动化登录
+
+### 实战四目标
+
+**相关知识点**
+
+![img_40.png](img_40.png)
+
+### cookie复用
+
+**IO 操作**
+
+![img_41.png](img_41.png)
+
+**文件操作步骤**
+
+* 打开文件
+* 操作文件：读/写内容
+* 关闭文件（读写完成，要及时的关闭）
+
+**open 方法**
+
+```python
+def open(file, mode='r', buffering=None, 
+encoding=None, errors=None, newline=None, 
+closefd=True):
+```
+
+#### 文件读写模式
+
+![img_42.png](img_42.png)
+
+**实战1**
+
+```python
+# 第一步：（以只读模式）打开文件
+f = open('data.txt', 'r', encoding='utf-8')  
+
+# 第二步：读取文件内容
+print(f.read())
+ 
+# 第三步：关闭文件
+f.close()
+```
+
+#### 读操作
+
+![img_43.png](img_43.png)
+
+**忘记关闭文件的危害**
+
+* 打开文件达到一定数量， 将会导致打开失败
+* 占用内存空间，非常浪费资源
+* 会导致系统自动回收资源，而丢失数据
+
+**with 用法**
+
+```python
+with open('data.txt', 'r', encoding='utf-8') as f:
+    print(f.read())
+print(f.closed)   ## 查看关闭状态
+```
+
+**总结**
+
+* 使用 with 方法，会自动完成关闭操作
+* 通过 python 封装的 API，可以实现读，写，追加操作
+* 文件打开要使用utf-8的编码格式（以免中文出现乱码）
+
