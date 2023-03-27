@@ -41,9 +41,9 @@ class TestLitemallLogin:
             # 输入指定密码
             password.send_keys(passwd)
             # 点击登录按钮
-            self.driver.find_element(By.XPATH, '//*[@id="app"]/div/form/button').click()
+            self.driver.find_element(By.XPATH, '//*[@id="test_app"]/div/form/button').click()
             # 获取元素内容
-            ele = self.driver.find_element(By.XPATH, '//*[@id="app"]/div/div[2]/section/div/div/div[1]/div/div[2]/div').text
+            ele = self.driver.find_element(By.XPATH, '//*[@id="test_app"]/div/div[2]/section/div/div/div[1]/div/div[2]/div').text
             # 断言结果是否正确
             assert '用户数量' == ele
         except NoSuchElementException:

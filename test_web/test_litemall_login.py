@@ -40,7 +40,7 @@ class TestLitemallLogin:
                 allure.attach.file(old_img_path, name="old_img", attachment_type=allure.attachment_type.PNG)
             # 找账号输入框元素
             with allure.step("找账号输入框元素"):
-                user = self.driver.find_element(By.XPATH, '//*[@id="app"]/div/form/div[2]/div/div/input')
+                user = self.driver.find_element(By.XPATH, '//*[@id="test_app"]/div/form/div[2]/div/div/input')
             # 清空输入框内容
             with allure.step("清空账号输入框内容"):
                 user.clear()
@@ -49,7 +49,7 @@ class TestLitemallLogin:
                 user.send_keys(username)
             # 找密码输入框元素
             with allure.step("找密码输入框元素"):
-                password = self.driver.find_element(By.XPATH, '//*[@id="app"]/div/form/div[3]/div/div/input')
+                password = self.driver.find_element(By.XPATH, '//*[@id="test_app"]/div/form/div[3]/div/div/input')
             # 清空输入框内容
             with allure.step("清空密码输入框内容"):
                 password.clear()
@@ -58,10 +58,10 @@ class TestLitemallLogin:
                 password.send_keys(passwd)
             # 点击登录按钮
             with allure.step("点击登录按钮"):
-                self.driver.find_element(By.XPATH, '//*[@id="app"]/div/form/button').click()
+                self.driver.find_element(By.XPATH, '//*[@id="test_app"]/div/form/button').click()
             # 获取元素内容
             with allure.step("获取元素内容,并输出给ele"):
-                ele = self.driver.find_element(By.XPATH, '//*[@id="app"]/div/div[2]/section/div/div/div[1]/div/div[2]/div').text
+                ele = self.driver.find_element(By.XPATH, '//*[@id="test_app"]/div/div[2]/section/div/div/div[1]/div/div[2]/div').text
             # 断言结果是否正确
             with allure.step("断言登录结果是否正确"):
                 assert '用户数量' == ele
