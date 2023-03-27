@@ -1,9 +1,9 @@
 # project
 
 ## 笔记存放地址
-https://gitee.com/sj73654/project/blob/master/note/web/web%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0.md#%E7%94%A8%E6%88%B7%E7%AB%AF-web%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E5%AE%9E%E6%88%983
+https://gitee.com/sj73654/project/blob/master/note/app/%E7%94%A8%E6%88%B7%E7%AB%AFApp%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95.md
 ## 作业存放地址
-https://gitee.com/sj73654/project/tree/master/web_po/wechat
+https://gitee.com/sj73654/project/blob/master/test_app/test_wechat.py
 
 #### 介绍
 **以下是 Gitee 平台说明，您可以替换此简介**
