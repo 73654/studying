@@ -22,6 +22,8 @@ class Test:
         caps["appium:appPackage"] = "com.tencent.wework"
         caps["appium:appActivity"] = ".launch.WwMainActivity"
         caps["appium:noReset"] = "true"
+        caps["appium:uid"] = "127.0.0.1:7555"
+        caps["appium:dontStopAppOnReset"] = "true"
         caps["appium:ensureWebviewsHavePages"] = True
         caps["appium:nativeWebScreenshot"] = True
         caps["appium:newCommandTimeout"] = 3600

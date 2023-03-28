@@ -553,8 +553,18 @@ new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(n
 
 ### 获取app启动参数
 
+* 第一种方法
+
 **mac获取命令为：**
 `adb logcat ActivityManager:I | grep "cmp"`
+
 **Windows为：**
 `adb logcat ActivityManager:I | findstr "cmp"`
 
+* 第二种方法
+
+**win：**
+`adb shell dumpsys activity | findstr mFocusedActivity`
+
+**mac:**
+`adb shell dumpsys activity | grep mFocusedActivity`
