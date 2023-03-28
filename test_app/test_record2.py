@@ -20,8 +20,11 @@ class Test:
         caps["appium:deviceName"] = "xueqiu"
         caps["appium:appPackage"] = "com.xueqiu.android"
         caps["appium:appActivity"] = ".view.WelcomeActivityAlias"
+        # 不清除缓存
         caps["appium:noReset"] = "true"
+        # appium程序应等待来自客户端的新命令多长时间
         caps["appium:newCommandTimeout"] = "60"
+        # 不希望应用程序在运行时重新启动
         caps["appium:dontStopAppOnReset"] = "true"
         caps["appium:ensureWebviewsHavePages"] = True
         caps["appium:nativeWebScreenshot"] = True
