@@ -250,3 +250,36 @@ webDriverWait.withMessage("lambda查找失败").until(
 * 强制等待
   * 不建议使用
 
+###  高级控件交互方法
+
+#### Actions
+
+* 执行一系列或多个键盘和指针（触摸、鼠标、触控笔）操作链
+
+#### w3c
+
+**W3C 事件流**
+
+![img_17.png](img_17.png)
+
+#### 用法
+
+* 定义 ActionChains 实例
+* 定义输入源
+* 定义动作
+
+```angular2html
+# 定义ActionChains 实例
+actions = ActionChains(driver)
+# 第一步：定义输入源
+# ActionChains里有个属性是ActionBuilder类型的， 使用的就是w3c协议
+# 可以定义鼠标指针源，键盘源，滚轮源事件
+actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+# 第二步：定义动作
+# 移动到起点-> 按下-> 滑动-> 抬起
+actions.w3c_actions.pointer_action.move_to_location(115, 183)
+actions.w3c_actions.pointer_action.pointer_down()
+actions.w3c_actions.pointer_action.move_to_location(362, 179)
+actions.w3c_actions.pointer_action.release()
+actions.perform()
+```

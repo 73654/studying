@@ -2,8 +2,15 @@ from appium import webdriver
 from appium.webdriver.common.appiumby import AppiumBy
 from faker import Faker
 from selenium.common import TimeoutException
+from selenium.webdriver.common import actions
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
+
+# For W3C actions
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.actions import interaction
+from selenium.webdriver.common.actions.action_builder import ActionBuilder
+from selenium.webdriver.common.actions.pointer_input import PointerInput
 
 
 # 滑动找元素并点击
@@ -30,6 +37,27 @@ def swipe_find(driver, by, value):
             eles[0].click()
             break
 
+def swipe_element(driver, by, value):
+    window_size = driver.get_window_size()
+    width = window_size["width"]
+    height = window_size["height"]
+    startx = width / 2
+    starty = height * 0.8
+    endx = startx
+    endy = height * 0.2
+    duration = 0
+    i = 1
+    while True:
+        eles = driver.find_elements(by=by, value=value)
+        if i > 10:
+            print("超过10次啦")
+            break
+        if len(eles) == 0:
+            print(f"第{i}次滑动")
+            driver.swipe(startx, starty, endx, endy, duration)
+            i += 1
+        else:
+           return eles[0].text
 
 def delete_circulate(driver, by, value):
     i = 1
@@ -88,9 +116,21 @@ def wait_for_text(driver, by, value):
 def wait_for_text2(driver, text, time=10):
     try:
         WebDriverWait(driver, time).until(
-            expected_conditions.visibility_of_element_located((AppiumBy.XPATH, f"//*[@text='{text}']"))
+            expected_conditions.visibility_of_element_located((AppiumBy.XPATH, f"//*[@text='{text}']")),
+            message=f"{text}没找到"
         )
         return True
-    except TimeoutException:
+    except TimeoutException as e:
+        print(e)
+        return False
+
+def wait_for_click(driver,value,time=10):
+    try:
+        WebDriverWait(driver, time).until(
+            expected_conditions.element_to_be_clickable((AppiumBy.XPATH, value)),
+        )
+        return True
+    except TimeoutException as e:
+        print(e)
         return False
 

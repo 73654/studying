@@ -34,6 +34,7 @@ class Test:
 
 
     def test_search(self):
+        # 点击工作台
         el1 = self.driver.find_element(by=AppiumBy.XPATH,value="//*[@resource-id='com.tencent.wework:id/kjd']//*[@text='工作台']")
         el1.click()
         el2 = self.driver.find_element(by=AppiumBy.XPATH,value="//*[@resource-id='com.tencent.wework:id/l6q']")

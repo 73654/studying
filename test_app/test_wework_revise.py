@@ -1,6 +1,8 @@
 # This sample code uses the Appium python client v2
 # pip install Appium-Python-Client
 # Then you can paste this into a file and simply run with Python
+import random
+
 import pytest
 from appium import webdriver
 from appium.webdriver.common.appiumby import AppiumBy
@@ -32,19 +34,20 @@ class Test:
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", caps)
         self.driver.implicitly_wait(2)
     def teardown(self):
-        self.driver.quit()
+        self.driver.back()
 
     @pytest.mark.parametrize(
-        "name",
-        ["王","常雪","李琴","林建"]
+        "name,new_name",
+        [
+            ["王亮","王晨"],
+            ["陈颖", "陈晨"],
+            ["邓桂花", "邓桂花"]
+        ]
     )
-    def test_delete(self,name):
+    def test_delete(self,name,new_name):
         # 点击通讯录
         el1 = self.driver.find_element(by=AppiumBy.XPATH, value="//*[@text='通讯录']")
         el1.click()
-        # 滑动并找到人数
-        el8 = swipe_element(self.driver,AppiumBy.XPATH,"//*[@resource-id='com.tencent.wework:id/itf']//*[@class='android.widget.TextView' and contains(@text,'未加入')]")
-        num1 = float(el8[1:3])
         # 点击搜索
         el2 = self.driver.find_element(by=AppiumBy.XPATH, value="//*[@resource-id='com.tencent.wework:id/l6v']")
         el2.click()
@@ -68,24 +71,33 @@ class Test:
         # 编辑成员
         el6 = self.driver.find_element(by=AppiumBy.XPATH, value="//*[@resource-id='com.tencent.wework:id/c5x']")
         el6.click()
-        swipe_find(self.driver, AppiumBy.XPATH, "//*[@resource-id='com.tencent.wework:id/gp1']")
-        # 确认删除
-        el7 = self.driver.find_element(by=AppiumBy.XPATH, value="//*[@resource-id='com.tencent.wework:id/cst']")
-        el7.click()
-        # 获取删除后文本
-        ele = self.driver.find_element(by=AppiumBy.XPATH, value="//*[@resource-id='com.tencent.wework:id/dgl']").text
-        # 断言搜索成功
-        assert ele == "无搜索结果"
+        # 清除姓名框内容并输入新内容
+        el7 = self.driver.find_element(by=AppiumBy.XPATH, value=f"//*[@text='{name}']")
+        el7.clear()
+        el7.send_keys(new_name)
+        # 点击性别
+        el8 = self.driver.find_element(by=AppiumBy.XPATH, value="//*[@resource-id='com.tencent.wework:id/gpb']")
+        el8.click()
+        # 定义一个列表
+        sex = ["男", "女"]
+        # 随机选择列表的一个元素
+        choice = random.choice(sex)
+        # 获取随机性别并点击更改
+        el9 = self.driver.find_element(by=AppiumBy.XPATH, value=f"//*[@text='{choice}']")
+        el9.click()
+        exists = wait_for_click(self.driver, "//*[@text='保存']")
+        if not exists:
+            pytest.xfail(reason=f"保存不可点击")
+        # 点击保存
+        el10 = self.driver.find_element(by=AppiumBy.XPATH, value="//*[@resource-id='com.tencent.wework:id/l6s']")
+        el10.click()
+        wait_for_text2(self.driver,new_name)
+        # 获取新姓名
+        el11 = self.driver.find_element(by=AppiumBy.XPATH, value="//*[@resource-id='com.tencent.wework:id/khc']")
+        assert  new_name == el11.text
+        print(f"成功将{name}修改为{new_name},其性别修改为{choice}")
         # 返回
         self.driver.back()
-        # 再次获取人数
-        el9 = swipe_element(self.driver, AppiumBy.XPATH,
-                      "//*[@resource-id='com.tencent.wework:id/itf']//*[@class='android.widget.TextView' and contains(@text,'未加入')]")
-        num2 = float(el9[1:3])
-        # 断言删除成功
-        assert num1 - num2 == 1
-
-
 
 
 
