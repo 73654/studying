@@ -82,7 +82,7 @@ class TestWeworkContact:
         7.搜索结果页面,获取更新后姓名,完成断言
         '''
         result = self.main.goto_address_list_page().goto_search_page().goto_message_page(
-            "常某").goto_more_options_page().goto_revise_member_page().update_message(
+            "王东").goto_more_options_page().goto_revise_member_page().update_message(
             self.new_name).get_newname()
         # 断言修改后结果是否与新姓名一致
         assert result == self.new_name

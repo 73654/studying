@@ -1,452 +1,462 @@
-2023-04-01 12:04:41 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
+2023-04-01 14:37:14 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:04:42 [INFO] //*[@text='添加成员']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:04:42 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:37:15 [INFO] 开始查找元素: ('xpath', "//*[@text='添加成员']") \
+(error_handle.py:21)
+2023-04-01 14:37:15 [INFO] //*[@text='添加成员']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:37:15 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:04:44 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:37:16 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:04:44 [INFO] //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击 \
+2023-04-01 14:37:16 [INFO] //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:04:45 [INFO] //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text \
+2023-04-01 14:37:18 [INFO] //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text \
 (base_page.py:70)
-2023-04-01 12:04:46 [INFO] //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入常某 \
+2023-04-01 14:37:19 [INFO] //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入常某 \
 (base_page.py:66)
-2023-04-01 12:04:47 [INFO] //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入15555573655 \
+2023-04-01 14:37:19 [INFO] //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入18106723945 \
 (base_page.py:66)
-2023-04-01 12:04:48 [INFO] //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:04:48 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:37:20 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/az1']") \
+(error_handle.py:21)
+2023-04-01 14:37:20 [INFO] //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:37:20 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:04:49 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:37:21 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:04:49 [INFO] //*[@class='android.widget.Toast']通过xpath方式并输出为text \
-(base_page.py:114)
-2023-04-01 12:04:51 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:37:21 [INFO] 开始查找元素: ('xpath', "//*[@class='android.widget.Toast']") \
 (error_handle.py:21)
-2023-04-01 12:04:51 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:04:54 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:37:21 [INFO] //*[@class='android.widget.Toast']通过xpath方式并输出为text \
+(base_page.py:116)
+2023-04-01 14:37:23 [INFO] 没有找到元素，开始异常处理 \
+(error_handle.py:24)
+2023-04-01 14:37:23 [INFO] 完成截图操作 \
+(base_page.py:233)
+2023-04-01 14:37:23 [INFO] 截图路径为 D:\project\app_po\wework\utils\..\image/2023-04-01 14-37-23.png \
+(base_page.py:244)
+2023-04-01 14:37:23 [INFO] 保存页面源码 \
+(base_page.py:255)
+2023-04-01 14:37:23 [INFO] page source 的保存路径为 D:\project\app_po\wework\utils\..\page_source/2023-04-01 14-37-23_page_source.xml \
+(base_page.py:266)
+2023-04-01 14:37:25 [INFO] //*[@class='android.widget.Toast']通过xpath方式并输出为text \
+(base_page.py:116)
+2023-04-01 14:37:28 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:04:54 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:37:28 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:04:56 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:37:30 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:04:56 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:37:30 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:04:59 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:37:32 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:04:59 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:37:32 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:05:00 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
+2023-04-01 14:37:33 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:05:11 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
+2023-04-01 14:37:43 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:05:12 [INFO] //*[@text='添加成员']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:05:12 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:37:44 [INFO] 开始查找元素: ('xpath', "//*[@text='添加成员']") \
+(error_handle.py:21)
+2023-04-01 14:37:44 [INFO] //*[@text='添加成员']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:37:44 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:05:13 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:37:45 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:05:13 [INFO] //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击 \
+2023-04-01 14:37:45 [INFO] //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:05:14 [INFO] //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text \
+2023-04-01 14:37:47 [INFO] //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text \
 (base_page.py:70)
-2023-04-01 12:05:15 [INFO] //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入王东 \
+2023-04-01 14:37:47 [INFO] //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入王东 \
 (base_page.py:66)
-2023-04-01 12:05:16 [INFO] //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入15555573354 \
+2023-04-01 14:37:48 [INFO] //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入15555573354 \
 (base_page.py:66)
-2023-04-01 12:05:17 [INFO] //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:05:17 [INFO] 设置隐式等待时间为2秒 \
-(base_page.py:79)
-2023-04-01 12:05:17 [INFO] 设置隐式等待时间为2秒 \
-(base_page.py:79)
-2023-04-01 12:05:17 [INFO] //*[@class='android.widget.Toast']通过xpath方式并输出为text \
-(base_page.py:114)
-2023-04-01 12:05:19 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:37:49 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/az1']") \
 (error_handle.py:21)
-2023-04-01 12:05:19 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:05:21 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:37:49 [INFO] //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:37:49 [INFO] 设置隐式等待时间为2秒 \
+(base_page.py:79)
+2023-04-01 14:37:50 [INFO] 设置隐式等待时间为2秒 \
+(base_page.py:79)
+2023-04-01 14:37:50 [INFO] 开始查找元素: ('xpath', "//*[@class='android.widget.Toast']") \
 (error_handle.py:21)
-2023-04-01 12:05:21 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:37:50 [INFO] //*[@class='android.widget.Toast']通过xpath方式并输出为text \
+(base_page.py:116)
+2023-04-01 14:37:52 [INFO] 弹窗信息为添加成功 \
+(add_member_page.py:31)
+2023-04-01 14:37:52 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:37:52 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:05:22 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
+2023-04-01 14:37:54 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:37:54 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+(base_page.py:46)
+2023-04-01 14:37:55 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:05:33 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
+2023-04-01 14:38:05 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:05:34 [INFO] //*[@text='添加成员']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:05:34 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:38:06 [INFO] 开始查找元素: ('xpath', "//*[@text='添加成员']") \
+(error_handle.py:21)
+2023-04-01 14:38:06 [INFO] //*[@text='添加成员']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:38:06 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:05:35 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:38:07 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:05:35 [INFO] //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击 \
+2023-04-01 14:38:07 [INFO] //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:05:36 [INFO] //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text \
+2023-04-01 14:38:09 [INFO] //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text \
 (base_page.py:70)
-2023-04-01 12:05:37 [INFO] //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入王西 \
+2023-04-01 14:38:10 [INFO] //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入王西 \
 (base_page.py:66)
-2023-04-01 12:05:38 [INFO] //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入15355573354 \
+2023-04-01 14:38:10 [INFO] //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入15355573354 \
 (base_page.py:66)
-2023-04-01 12:05:39 [INFO] //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:05:39 [INFO] 设置隐式等待时间为2秒 \
-(base_page.py:79)
-2023-04-01 12:05:39 [INFO] 设置隐式等待时间为2秒 \
-(base_page.py:79)
-2023-04-01 12:05:39 [INFO] //*[@class='android.widget.Toast']通过xpath方式并输出为text \
-(base_page.py:114)
-2023-04-01 12:05:41 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:38:11 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/az1']") \
 (error_handle.py:21)
-2023-04-01 12:05:41 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:05:44 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:38:11 [INFO] //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:38:11 [INFO] 设置隐式等待时间为2秒 \
+(base_page.py:79)
+2023-04-01 14:38:12 [INFO] 设置隐式等待时间为2秒 \
+(base_page.py:79)
+2023-04-01 14:38:12 [INFO] 开始查找元素: ('xpath', "//*[@class='android.widget.Toast']") \
 (error_handle.py:21)
-2023-04-01 12:05:44 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:38:12 [INFO] //*[@class='android.widget.Toast']通过xpath方式并输出为text \
+(base_page.py:116)
+2023-04-01 14:38:14 [INFO] 弹窗信息为添加成功 \
+(add_member_page.py:31)
+2023-04-01 14:38:14 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:38:14 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:05:44 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
+2023-04-01 14:38:16 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:38:16 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+(base_page.py:46)
+2023-04-01 14:38:17 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:05:54 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
+2023-04-01 14:38:27 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:05:55 [INFO] //*[@text='添加成员']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:05:55 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:38:28 [INFO] 开始查找元素: ('xpath', "//*[@text='添加成员']") \
+(error_handle.py:21)
+2023-04-01 14:38:28 [INFO] //*[@text='添加成员']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:38:28 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:05:57 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:38:29 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:05:57 [INFO] //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击 \
+2023-04-01 14:38:29 [INFO] //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:05:58 [INFO] //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text \
+2023-04-01 14:38:30 [INFO] //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text \
 (base_page.py:70)
-2023-04-01 12:05:59 [INFO] //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入王北 \
+2023-04-01 14:38:31 [INFO] //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入王北 \
 (base_page.py:66)
-2023-04-01 12:06:00 [INFO] //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入15355572354 \
+2023-04-01 14:38:31 [INFO] //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入15355572354 \
 (base_page.py:66)
-2023-04-01 12:06:01 [INFO] //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:06:01 [INFO] 设置隐式等待时间为2秒 \
-(base_page.py:79)
-2023-04-01 12:06:02 [INFO] 设置隐式等待时间为2秒 \
-(base_page.py:79)
-2023-04-01 12:06:02 [INFO] //*[@class='android.widget.Toast']通过xpath方式并输出为text \
-(base_page.py:114)
-2023-04-01 12:06:03 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:38:33 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/az1']") \
 (error_handle.py:21)
-2023-04-01 12:06:03 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:06:06 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:38:33 [INFO] //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:38:33 [INFO] 设置隐式等待时间为2秒 \
+(base_page.py:79)
+2023-04-01 14:38:33 [INFO] 设置隐式等待时间为2秒 \
+(base_page.py:79)
+2023-04-01 14:38:33 [INFO] 开始查找元素: ('xpath', "//*[@class='android.widget.Toast']") \
 (error_handle.py:21)
-2023-04-01 12:06:06 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:38:33 [INFO] //*[@class='android.widget.Toast']通过xpath方式并输出为text \
+(base_page.py:116)
+2023-04-01 14:38:35 [INFO] 弹窗信息为添加成功 \
+(add_member_page.py:31)
+2023-04-01 14:38:35 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:38:35 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:06:06 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
+2023-04-01 14:38:37 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:38:37 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+(base_page.py:46)
+2023-04-01 14:38:38 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:06:17 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
+2023-04-01 14:38:48 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:06:18 [INFO] //*[@text='添加成员']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:06:18 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:38:49 [INFO] 开始查找元素: ('xpath', "//*[@text='添加成员']") \
+(error_handle.py:21)
+2023-04-01 14:38:49 [INFO] //*[@text='添加成员']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:38:49 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:06:19 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:38:50 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:06:19 [INFO] //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击 \
+2023-04-01 14:38:50 [INFO] //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:06:20 [INFO] //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text \
+2023-04-01 14:38:52 [INFO] //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text \
 (base_page.py:70)
-2023-04-01 12:06:21 [INFO] //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入王南 \
+2023-04-01 14:38:53 [INFO] //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入王南 \
 (base_page.py:66)
-2023-04-01 12:06:22 [INFO] //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入15355523354 \
+2023-04-01 14:38:53 [INFO] //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入15355523354 \
 (base_page.py:66)
-2023-04-01 12:06:23 [INFO] //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:06:23 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:38:54 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/az1']") \
+(error_handle.py:21)
+2023-04-01 14:38:54 [INFO] //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:38:54 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:06:23 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:38:55 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:06:23 [INFO] //*[@class='android.widget.Toast']通过xpath方式并输出为text \
-(base_page.py:114)
-2023-04-01 12:06:25 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:38:55 [INFO] 开始查找元素: ('xpath', "//*[@class='android.widget.Toast']") \
 (error_handle.py:21)
-2023-04-01 12:06:25 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:06:27 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:38:55 [INFO] //*[@class='android.widget.Toast']通过xpath方式并输出为text \
+(base_page.py:116)
+2023-04-01 14:38:57 [INFO] 弹窗信息为添加成功 \
+(add_member_page.py:31)
+2023-04-01 14:38:57 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:06:27 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:38:57 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:06:28 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
+2023-04-01 14:38:59 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:38:59 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+(base_page.py:46)
+2023-04-01 14:39:00 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:06:39 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
+2023-04-01 14:39:10 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:06:39 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
+2023-04-01 14:39:11 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:06:41 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王西 \
+2023-04-01 14:39:12 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王西 \
 (base_page.py:66)
-2023-04-01 12:06:42 [INFO] 显式等待找到联系人文本可见停止 \
-(base_page.py:198)
-2023-04-01 12:06:44 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*") \
+2023-04-01 14:39:14 [INFO] 显式等待找到联系人文本可见停止 \
+(base_page.py:200)
+2023-04-01 14:39:16 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*") \
 (error_handle.py:21)
-2023-04-01 12:06:44 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找 \
+2023-04-01 14:39:16 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:06:44 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:39:16 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:06:44 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:39:16 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:06:46 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:39:18 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:06:46 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:39:18 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:06:49 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:39:21 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:06:49 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:39:21 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:06:49 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
+2023-04-01 14:39:21 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:07:00 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
+2023-04-01 14:39:31 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:07:01 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
+2023-04-01 14:39:32 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:07:02 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入常永王 \
+2023-04-01 14:39:34 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王东 \
 (base_page.py:66)
-2023-04-01 12:07:04 [INFO] 显式等待找到联系人文本可见停止 \
-(base_page.py:198)
-2023-04-01 12:07:14 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:39:35 [INFO] 显式等待找到联系人文本可见停止 \
+(base_page.py:200)
+2023-04-01 14:39:37 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*") \
 (error_handle.py:21)
-2023-04-01 12:07:14 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:39:37 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:07:17 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:39:37 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']通过xpath方式寻找并点击 \
+(base_page.py:56)
+2023-04-01 14:39:38 [INFO] //*[@resource-id='com.tencent.wework:id/l6l']通过xpath方式寻找并点击 \
+(base_page.py:56)
+2023-04-01 14:39:38 [INFO] //*[@resource-id='com.tencent.wework:id/c5x']通过xpath方式寻找并点击 \
+(base_page.py:56)
+2023-04-01 14:39:39 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gpu']/child::*/child::*[3]") \
 (error_handle.py:21)
-2023-04-01 12:07:17 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:07:20 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
-(error_handle.py:21)
-2023-04-01 12:07:20 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:07:20 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:07:32 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:07:33 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:07:33 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入常某 \
+2023-04-01 14:39:39 [INFO] //*[@resource-id='com.tencent.wework:id/gpu']/child::*/child::*[3]通过xpath方式寻找 \
+(base_page.py:35)
+2023-04-01 14:39:40 [INFO] //*[@resource-id='com.tencent.wework:id/gpu']/child::*/child::*[3]通过xpath方式寻找并输入王西 \
 (base_page.py:66)
-2023-04-01 12:07:35 [INFO] 显式等待找到联系人文本可见停止 \
-(base_page.py:198)
-2023-04-01 12:07:37 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*") \
-(error_handle.py:21)
-2023-04-01 12:07:37 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:07:37 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']通过xpath方式寻找并点击 \
+2023-04-01 14:39:41 [INFO] //*[@resource-id='com.tencent.wework:id/gpb']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:07:38 [INFO] //*[@resource-id='com.tencent.wework:id/l6l']通过xpath方式寻找并点击 \
+2023-04-01 14:39:42 [INFO] //*[@text='男']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:07:38 [INFO] //*[@resource-id='com.tencent.wework:id/c5x']通过xpath方式寻找并点击 \
+2023-04-01 14:39:43 [INFO] 显式等待找到//*[@text='保存']按钮可点击停止 \
+(base_page.py:218)
+2023-04-01 14:39:44 [INFO] //*[@resource-id='com.tencent.wework:id/l6s']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:07:39 [INFO] //*[@resource-id='com.tencent.wework:id/gp1']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:07:39 [INFO] 设置隐式等待时间为2秒 \
-(base_page.py:79)
-2023-04-01 12:07:43 [INFO] 设置隐式等待时间为2秒 \
-(base_page.py:79)
-2023-04-01 12:07:43 [INFO] //*[@resource-id='com.tencent.wework:id/cst']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:07:43 [INFO] //*[@resource-id='com.tencent.wework:id/dgl']通过xpath方式寻找并输出为text \
+2023-04-01 14:39:44 [INFO] 显式等待找到王西文本可见停止 \
+(base_page.py:200)
+2023-04-01 14:39:46 [INFO] //*[@resource-id='com.tencent.wework:id/khc']通过xpath方式寻找并输出为text \
 (base_page.py:70)
-2023-04-01 12:07:45 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:39:47 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:07:45 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:39:47 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:07:49 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:39:50 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:07:49 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:39:50 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:07:49 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
+2023-04-01 14:39:53 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:39:53 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+(base_page.py:46)
+2023-04-01 14:39:53 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:00 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
+2023-04-01 14:40:03 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:01 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
+2023-04-01 14:40:04 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:02 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王东 \
+2023-04-01 14:40:05 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王东 \
 (base_page.py:66)
-2023-04-01 12:08:04 [INFO] 显式等待找到联系人文本可见停止 \
-(base_page.py:198)
-2023-04-01 12:08:06 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*") \
+2023-04-01 14:40:06 [INFO] 显式等待找到联系人文本可见停止 \
+(base_page.py:200)
+2023-04-01 14:40:16 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:08:06 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找 \
+2023-04-01 14:40:16 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:08:06 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']通过xpath方式寻找并点击 \
+2023-04-01 14:40:18 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:40:18 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+(base_page.py:46)
+2023-04-01 14:40:22 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:40:22 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+(base_page.py:46)
+2023-04-01 14:40:22 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:06 [INFO] //*[@resource-id='com.tencent.wework:id/l6l']通过xpath方式寻找并点击 \
+2023-04-01 14:40:31 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:07 [INFO] //*[@resource-id='com.tencent.wework:id/c5x']通过xpath方式寻找并点击 \
+2023-04-01 14:40:32 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:08 [INFO] //*[@resource-id='com.tencent.wework:id/gp1']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:08:08 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:40:34 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王西 \
+(base_page.py:66)
+2023-04-01 14:40:36 [INFO] 显式等待找到联系人文本可见停止 \
+(base_page.py:200)
+2023-04-01 14:40:37 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*") \
+(error_handle.py:21)
+2023-04-01 14:40:37 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找 \
+(base_page.py:46)
+2023-04-01 14:40:37 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:40:37 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+(base_page.py:46)
+2023-04-01 14:40:39 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:40:39 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+(base_page.py:46)
+2023-04-01 14:40:43 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+(error_handle.py:21)
+2023-04-01 14:40:43 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+(base_page.py:46)
+2023-04-01 14:40:43 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
+(base_page.py:56)
+2023-04-01 14:40:53 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
+(base_page.py:56)
+2023-04-01 14:40:54 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
+(base_page.py:56)
+2023-04-01 14:40:55 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王北 \
+(base_page.py:66)
+2023-04-01 14:40:57 [INFO] 显式等待找到联系人文本可见停止 \
+(base_page.py:200)
+2023-04-01 14:40:58 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*") \
+(error_handle.py:21)
+2023-04-01 14:40:58 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找 \
+(base_page.py:46)
+2023-04-01 14:40:58 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']通过xpath方式寻找并点击 \
+(base_page.py:56)
+2023-04-01 14:40:59 [INFO] //*[@resource-id='com.tencent.wework:id/l6l']通过xpath方式寻找并点击 \
+(base_page.py:56)
+2023-04-01 14:41:00 [INFO] //*[@resource-id='com.tencent.wework:id/c5x']通过xpath方式寻找并点击 \
+(base_page.py:56)
+2023-04-01 14:41:01 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gp1']") \
+(error_handle.py:21)
+2023-04-01 14:41:01 [INFO] //*[@resource-id='com.tencent.wework:id/gp1']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:41:01 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:08:11 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:41:04 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:08:11 [INFO] //*[@resource-id='com.tencent.wework:id/cst']通过xpath方式寻找并点击 \
+2023-04-01 14:41:04 [INFO] //*[@resource-id='com.tencent.wework:id/cst']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:12 [INFO] //*[@resource-id='com.tencent.wework:id/dgl']通过xpath方式寻找并输出为text \
+2023-04-01 14:41:05 [INFO] //*[@resource-id='com.tencent.wework:id/dgl']通过xpath方式寻找并输出为text \
 (base_page.py:70)
-2023-04-01 12:08:14 [INFO] 删除成功 \
+2023-04-01 14:41:07 [INFO] 删除成功 \
 (test_wework_contact2.py:113)
-2023-04-01 12:08:14 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:41:07 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:08:14 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:41:07 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:08:17 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:41:10 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:08:17 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:41:10 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:08:17 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
+2023-04-01 14:41:10 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:27 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
+2023-04-01 14:41:20 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:28 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
+2023-04-01 14:41:21 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:29 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王西 \
+2023-04-01 14:41:22 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王南 \
 (base_page.py:66)
-2023-04-01 12:08:31 [INFO] 显式等待找到联系人文本可见停止 \
-(base_page.py:198)
-2023-04-01 12:08:33 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*") \
+2023-04-01 14:41:24 [INFO] 显式等待找到联系人文本可见停止 \
+(base_page.py:200)
+2023-04-01 14:41:25 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*") \
 (error_handle.py:21)
-2023-04-01 12:08:33 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找 \
+2023-04-01 14:41:25 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:08:33 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']通过xpath方式寻找并点击 \
+2023-04-01 14:41:25 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:34 [INFO] //*[@resource-id='com.tencent.wework:id/l6l']通过xpath方式寻找并点击 \
+2023-04-01 14:41:25 [INFO] //*[@resource-id='com.tencent.wework:id/l6l']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:34 [INFO] //*[@resource-id='com.tencent.wework:id/c5x']通过xpath方式寻找并点击 \
+2023-04-01 14:41:27 [INFO] //*[@resource-id='com.tencent.wework:id/c5x']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:35 [INFO] //*[@resource-id='com.tencent.wework:id/gp1']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:08:35 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:41:28 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gp1']") \
+(error_handle.py:21)
+2023-04-01 14:41:28 [INFO] //*[@resource-id='com.tencent.wework:id/gp1']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:41:28 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:08:38 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:41:31 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:08:38 [INFO] //*[@resource-id='com.tencent.wework:id/cst']通过xpath方式寻找并点击 \
+2023-04-01 14:41:31 [INFO] //*[@resource-id='com.tencent.wework:id/cst']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:39 [INFO] //*[@resource-id='com.tencent.wework:id/dgl']通过xpath方式寻找并输出为text \
+2023-04-01 14:41:32 [INFO] //*[@resource-id='com.tencent.wework:id/dgl']通过xpath方式寻找并输出为text \
 (base_page.py:70)
-2023-04-01 12:08:41 [INFO] 删除成功 \
+2023-04-01 14:41:34 [INFO] 删除成功 \
 (test_wework_contact2.py:113)
-2023-04-01 12:08:41 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:41:34 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:08:41 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:41:34 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:08:44 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:41:37 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:08:44 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:41:37 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:08:44 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
+2023-04-01 14:41:37 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:54 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
+2023-04-01 14:41:47 [INFO] //*[@resource-id='com.tencent.wework:id/kjd']//*[@text='工作台']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:08:55 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:08:56 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王北 \
-(base_page.py:66)
-2023-04-01 12:08:58 [INFO] 显式等待找到联系人文本可见停止 \
-(base_page.py:198)
-2023-04-01 12:08:59 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*") \
+2023-04-01 14:41:48 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/hek' and @text='打卡']") \
 (error_handle.py:21)
-2023-04-01 12:08:59 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:08:59 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:08:59 [INFO] //*[@resource-id='com.tencent.wework:id/l6l']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:09:01 [INFO] //*[@resource-id='com.tencent.wework:id/c5x']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:09:02 [INFO] //*[@resource-id='com.tencent.wework:id/gp1']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:09:02 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:41:48 [INFO] //*[@resource-id='com.tencent.wework:id/hek' and @text='打卡']通过xpath方式滑动找到并点击 \
+(base_page.py:85)
+2023-04-01 14:41:48 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:09:05 [INFO] 设置隐式等待时间为2秒 \
+2023-04-01 14:41:49 [INFO] 设置隐式等待时间为2秒 \
 (base_page.py:79)
-2023-04-01 12:09:05 [INFO] //*[@resource-id='com.tencent.wework:id/cst']通过xpath方式寻找并点击 \
+2023-04-01 14:41:49 [INFO] //*[@resource-id='com.tencent.wework:id/kls']通过xpath方式寻找并点击 \
 (base_page.py:56)
-2023-04-01 12:09:06 [INFO] //*[@resource-id='com.tencent.wework:id/dgl']通过xpath方式寻找并输出为text \
+2023-04-01 14:41:51 [INFO] 显式等待找到//*[contains(@text,'次外出')]按钮可点击停止 \
+(base_page.py:218)
+2023-04-01 14:41:52 [INFO] //*[contains(@text,'次外出')]通过xpath方式寻找并点击 \
+(base_page.py:56)
+2023-04-01 14:41:53 [INFO] 显式等待找到外出打卡成功文本可见停止 \
+(base_page.py:200)
+2023-04-01 14:41:55 [INFO] //*[@resource-id='com.tencent.wework:id/s_']通过xpath方式寻找并输出为text \
 (base_page.py:70)
-2023-04-01 12:09:08 [INFO] 删除成功 \
-(test_wework_contact2.py:113)
-2023-04-01 12:09:08 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:41:55 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:09:08 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:41:55 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:09:11 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
+2023-04-01 14:41:58 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
 (error_handle.py:21)
-2023-04-01 12:09:11 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
+2023-04-01 14:41:58 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
 (base_page.py:46)
-2023-04-01 12:09:11 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:09:21 [INFO] //*[@text='通讯录']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:09:22 [INFO] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:09:23 [INFO] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王南 \
-(base_page.py:66)
-2023-04-01 12:09:25 [INFO] 显式等待找到联系人文本可见停止 \
-(base_page.py:198)
-2023-04-01 12:09:26 [INFO] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*") \
-(error_handle.py:21)
-2023-04-01 12:09:26 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:09:27 [INFO] //*[@resource-id='com.tencent.wework:id/gdx']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:09:27 [INFO] //*[@resource-id='com.tencent.wework:id/l6l']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:09:28 [INFO] //*[@resource-id='com.tencent.wework:id/c5x']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:09:29 [INFO] //*[@resource-id='com.tencent.wework:id/gp1']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:09:29 [INFO] 设置隐式等待时间为2秒 \
-(base_page.py:79)
-2023-04-01 12:09:32 [INFO] 设置隐式等待时间为2秒 \
-(base_page.py:79)
-2023-04-01 12:09:32 [INFO] //*[@resource-id='com.tencent.wework:id/cst']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:09:33 [INFO] //*[@resource-id='com.tencent.wework:id/dgl']通过xpath方式寻找并输出为text \
-(base_page.py:70)
-2023-04-01 12:09:35 [INFO] 删除成功 \
-(test_wework_contact2.py:113)
-2023-04-01 12:09:35 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
-(error_handle.py:21)
-2023-04-01 12:09:35 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:09:38 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
-(error_handle.py:21)
-2023-04-01 12:09:38 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:09:38 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:09:51 [INFO] //*[@resource-id='com.tencent.wework:id/kjd']//*[@text='工作台']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:09:52 [INFO] //*[@resource-id='com.tencent.wework:id/hek' and @text='打卡']通过xpath方式滑动找到并点击 \
-(base_page.py:84)
-2023-04-01 12:09:52 [INFO] 设置隐式等待时间为2秒 \
-(base_page.py:79)
-2023-04-01 12:09:57 [INFO] 设置隐式等待时间为2秒 \
-(base_page.py:79)
-2023-04-01 12:09:57 [INFO] //*[@resource-id='com.tencent.wework:id/kls']通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:09:59 [INFO] 显式等待找到//*[contains(@text,'次外出')]按钮可点击停止 \
-(base_page.py:216)
-2023-04-01 12:10:01 [INFO] //*[contains(@text,'次外出')]通过xpath方式寻找并点击 \
-(base_page.py:56)
-2023-04-01 12:10:01 [INFO] 显式等待找到外出打卡成功文本可见停止 \
-(base_page.py:198)
-2023-04-01 12:10:04 [INFO] //*[@resource-id='com.tencent.wework:id/s_']通过xpath方式寻找并输出为text \
-(base_page.py:70)
-2023-04-01 12:10:04 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
-(error_handle.py:21)
-2023-04-01 12:10:04 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:10:06 [INFO] 开始查找元素: ('xpath', "//*[@text='通讯录']") \
-(error_handle.py:21)
-2023-04-01 12:10:06 [INFO] //*[@text='通讯录']通过xpath方式寻找 \
-(base_page.py:46)
-2023-04-01 12:10:07 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
+2023-04-01 14:41:59 [INFO] //*[@text='消息']通过xpath方式寻找并点击 \
 (base_page.py:56)

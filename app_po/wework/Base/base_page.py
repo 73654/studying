@@ -80,6 +80,7 @@ class BasePage:
         self.driver.implicitly_wait(time)
 
     # 滑动找元素并点击
+    @black_wrapper
     def swipe_find(self, by, value):
         logger.info(f"{value}通过{by}方式滑动找到并点击")
         window_size = self.driver.get_window_size()
@@ -106,6 +107,7 @@ class BasePage:
                 self.set_implicitly_wait(2)
                 break
 
+    @black_wrapper
     def get_tips(self, by, value):
         '''
         获取toast 的文本
@@ -222,38 +224,47 @@ class BasePage:
             print(e)
             return False
 
-    def save_screenshot(self, root_path):
-        logger.info(f"截图成功")
-        # 使用当前时间作为截图文件名
+    def screenshot(self, root_path):
+        '''
+        截图
+        :param root_path: 当前文件的路径
+        :return: 截图保存的路径
+        '''
+        logger.info("完成截图操作")
+        # 使用当前时间作为截图的文件名
         image_name = Utils.get_current_time() + ".png"
+        # 拼接当前图片保存的路径
         image_dir_path = os.sep.join([root_path, "..", "image/"])
+        # 如果图片保存路径不存在
         if not os.path.isdir(image_dir_path):
             # 创建这个路径
             os.mkdir(image_dir_path)
         # 拼接图片保存路径
         image_path = image_dir_path + image_name
-        logger.info(f"截图路径为{image_path}")
+        logger.info(f"截图路径为 {image_path}")
+        # 截图
         self.driver.save_screenshot(image_path)
         return image_path
 
-    def page_source(self, root_path):
+    def save_page_source(self, root_path):
         '''
         保存页面源码
-        :param root_path: 当前文件路径
-        :return: 
+        :param root_path: 当前文件的路径
+        :return: 页面源码文件的路径
         '''
-        logger.info(f"保存页面源码")
-        # 使用当前时间作为页面源码文件名
+        logger.info("保存页面源码")
+        # 使用当前时间作为页面源码的文件名
         page_source_name = Utils.get_current_time() + "_page_source.xml"
+        # 拼接当前文件保存的路径
         page_source_dir_path = os.sep.join([root_path, "..", "page_source/"])
         # 如果文件保存路径不存在
         if not os.path.isdir(page_source_dir_path):
             # 创建这个路径
             os.mkdir(page_source_dir_path)
-        # 拼接图片保存路径
+        # 拼接文件保存路径
         page_source_path = page_source_dir_path + page_source_name
-        logger.info(f"page source 的保存路径为{page_source_path}")
+        logger.info(f"page source 的保存路径为 {page_source_path}")
         # 写 page source 文件
         with open(page_source_path, "w", encoding="utf-8") as f:
             f.write(self.driver.page_source)
-        allure.attach.file(page_source_path, name="page_source", attachment_type=allure.attachment_type.TEXT)
+        return page_source_path

@@ -4,6 +4,7 @@ from appium.webdriver.webdriver import WebDriver
 
 from app_po.wework.Base.wework_app import BaseDriver
 from app_po.wework.utils.error_handle import black_wrapper
+from utils.log_until import logger
 
 
 class AddMemberPage(BaseDriver):
@@ -27,6 +28,5 @@ class AddMemberPage(BaseDriver):
         # 获取toast元素
         with allure.step("获取toast元素"):
             tips = self.get_tips(*self._TOAST_POP)
-            # self.save_screenshot(".")
-            # self.page_source(".")
+            logger.info(f"弹窗信息为{tips}")
             return tips

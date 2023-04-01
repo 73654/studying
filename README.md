@@ -1,9 +1,10 @@
 # project
 
-## 笔记存放地址
-https://gitee.com/sj73654/project/blob/master/note/app/%E7%94%A8%E6%88%B7%E7%AB%AFApp%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%952.md
 ## 作业存放地址
-https://gitee.com/sj73654/project/blob/master/test_app/test_wework_main.py
+https://gitee.com/sj73654/project/tree/master/app_po/wework/
+## Allure截图
+![img_3.png](img_3.png)
+
 
 #### 介绍
 **以下是 Gitee 平台说明，您可以替换此简介**
