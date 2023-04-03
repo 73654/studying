@@ -1,0 +1,11 @@
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@text='通讯录']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:base_page.py:66 //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王东
+[32mINFO    [0m utils.log_until:base_page.py:200 显式等待找到联系人文本可见停止
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@text='通讯录']")
+[32mINFO    [0m utils.log_until:base_page.py:46 //*[@text='通讯录']通过xpath方式寻找
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@text='通讯录']")
+[32mINFO    [0m utils.log_until:base_page.py:46 //*[@text='通讯录']通过xpath方式寻找
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@text='通讯录']")
+[32mINFO    [0m utils.log_until:base_page.py:46 //*[@text='通讯录']通过xpath方式寻找
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@text='消息']通过xpath方式寻找并点击

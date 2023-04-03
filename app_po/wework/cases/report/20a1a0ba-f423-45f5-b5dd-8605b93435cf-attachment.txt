@@ -1,0 +1,11 @@
+[2023-04-01 14:40:03] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@text='通讯录']通过xpath方式寻找并点击 
+[2023-04-01 14:40:04] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 
+[2023-04-01 14:40:05] [INFO] [base_page.py]/[line: 66]/[find_and_sendkeys] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王东 
+[2023-04-01 14:40:06] [INFO] [base_page.py]/[line: 200]/[wait_for_text2] 显式等待找到联系人文本可见停止 
+[2023-04-01 14:40:16] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:40:16] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:40:18] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:40:18] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:40:22] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:40:22] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:40:22] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@text='消息']通过xpath方式寻找并点击 

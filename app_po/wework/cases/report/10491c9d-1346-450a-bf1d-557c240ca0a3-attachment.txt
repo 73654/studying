@@ -1,0 +1,15 @@
+[2023-04-01 14:41:47] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@resource-id='com.tencent.wework:id/kjd']//*[@text='工作台']通过xpath方式寻找并点击 
+[2023-04-01 14:41:48] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/hek' and @text='打卡']") 
+[2023-04-01 14:41:48] [INFO] [base_page.py]/[line: 85]/[swipe_find] //*[@resource-id='com.tencent.wework:id/hek' and @text='打卡']通过xpath方式滑动找到并点击 
+[2023-04-01 14:41:48] [INFO] [base_page.py]/[line: 79]/[set_implicitly_wait] 设置隐式等待时间为2秒 
+[2023-04-01 14:41:49] [INFO] [base_page.py]/[line: 79]/[set_implicitly_wait] 设置隐式等待时间为2秒 
+[2023-04-01 14:41:49] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@resource-id='com.tencent.wework:id/kls']通过xpath方式寻找并点击 
+[2023-04-01 14:41:51] [INFO] [base_page.py]/[line: 218]/[wait_for_click] 显式等待找到//*[contains(@text,'次外出')]按钮可点击停止 
+[2023-04-01 14:41:52] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[contains(@text,'次外出')]通过xpath方式寻找并点击 
+[2023-04-01 14:41:53] [INFO] [base_page.py]/[line: 200]/[wait_for_text2] 显式等待找到外出打卡成功文本可见停止 
+[2023-04-01 14:41:55] [INFO] [base_page.py]/[line: 70]/[find_and_text] //*[@resource-id='com.tencent.wework:id/s_']通过xpath方式寻找并输出为text 
+[2023-04-01 14:41:55] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:41:55] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:41:58] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:41:58] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:41:59] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@text='消息']通过xpath方式寻找并点击 

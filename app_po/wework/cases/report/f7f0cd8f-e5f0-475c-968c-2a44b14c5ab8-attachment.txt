@@ -1,0 +1,21 @@
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@text='通讯录']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@text='添加成员']")
+[32mINFO    [0m utils.log_until:base_page.py:85 //*[@text='添加成员']通过xpath方式滑动找到并点击
+[32mINFO    [0m utils.log_until:base_page.py:79 设置隐式等待时间为2秒
+[32mINFO    [0m utils.log_until:base_page.py:79 设置隐式等待时间为2秒
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:base_page.py:70 //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text
+[32mINFO    [0m utils.log_until:base_page.py:66 //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入王西
+[32mINFO    [0m utils.log_until:base_page.py:66 //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入15355573354
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/az1']")
+[32mINFO    [0m utils.log_until:base_page.py:85 //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击
+[32mINFO    [0m utils.log_until:base_page.py:79 设置隐式等待时间为2秒
+[32mINFO    [0m utils.log_until:base_page.py:79 设置隐式等待时间为2秒
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@class='android.widget.Toast']")
+[32mINFO    [0m utils.log_until:base_page.py:116 //*[@class='android.widget.Toast']通过xpath方式并输出为text
+[32mINFO    [0m utils.log_until:add_member_page.py:31 弹窗信息为添加成功
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@text='通讯录']")
+[32mINFO    [0m utils.log_until:base_page.py:46 //*[@text='通讯录']通过xpath方式寻找
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@text='通讯录']")
+[32mINFO    [0m utils.log_until:base_page.py:46 //*[@text='通讯录']通过xpath方式寻找
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@text='消息']通过xpath方式寻找并点击

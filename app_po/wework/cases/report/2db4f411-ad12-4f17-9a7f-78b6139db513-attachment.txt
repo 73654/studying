@@ -1,0 +1,25 @@
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@text='通讯录']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:base_page.py:66 //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王东
+[32mINFO    [0m utils.log_until:base_page.py:200 显式等待找到联系人文本可见停止
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*")
+[32mINFO    [0m utils.log_until:base_page.py:46 //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@resource-id='com.tencent.wework:id/gdx']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@resource-id='com.tencent.wework:id/l6l']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@resource-id='com.tencent.wework:id/c5x']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gpu']/child::*/child::*[3]")
+[32mINFO    [0m utils.log_until:base_page.py:35 //*[@resource-id='com.tencent.wework:id/gpu']/child::*/child::*[3]通过xpath方式寻找
+[32mINFO    [0m utils.log_until:base_page.py:66 //*[@resource-id='com.tencent.wework:id/gpu']/child::*/child::*[3]通过xpath方式寻找并输入王西
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@resource-id='com.tencent.wework:id/gpb']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@text='男']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:base_page.py:218 显式等待找到//*[@text='保存']按钮可点击停止
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@resource-id='com.tencent.wework:id/l6s']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:base_page.py:200 显式等待找到王西文本可见停止
+[32mINFO    [0m utils.log_until:base_page.py:70 //*[@resource-id='com.tencent.wework:id/khc']通过xpath方式寻找并输出为text
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@text='通讯录']")
+[32mINFO    [0m utils.log_until:base_page.py:46 //*[@text='通讯录']通过xpath方式寻找
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@text='通讯录']")
+[32mINFO    [0m utils.log_until:base_page.py:46 //*[@text='通讯录']通过xpath方式寻找
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@text='通讯录']")
+[32mINFO    [0m utils.log_until:base_page.py:46 //*[@text='通讯录']通过xpath方式寻找
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@text='消息']通过xpath方式寻找并点击

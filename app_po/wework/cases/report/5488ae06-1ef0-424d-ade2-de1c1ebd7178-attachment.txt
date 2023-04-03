@@ -1,0 +1,21 @@
+[2023-04-01 14:37:43] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@text='通讯录']通过xpath方式寻找并点击 
+[2023-04-01 14:37:44] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='添加成员']") 
+[2023-04-01 14:37:44] [INFO] [base_page.py]/[line: 85]/[swipe_find] //*[@text='添加成员']通过xpath方式滑动找到并点击 
+[2023-04-01 14:37:44] [INFO] [base_page.py]/[line: 79]/[set_implicitly_wait] 设置隐式等待时间为2秒 
+[2023-04-01 14:37:45] [INFO] [base_page.py]/[line: 79]/[set_implicitly_wait] 设置隐式等待时间为2秒 
+[2023-04-01 14:37:45] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击 
+[2023-04-01 14:37:47] [INFO] [base_page.py]/[line: 70]/[find_and_text] //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text 
+[2023-04-01 14:37:47] [INFO] [base_page.py]/[line: 66]/[find_and_sendkeys] //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入王东 
+[2023-04-01 14:37:48] [INFO] [base_page.py]/[line: 66]/[find_and_sendkeys] //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入15555573354 
+[2023-04-01 14:37:49] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/az1']") 
+[2023-04-01 14:37:49] [INFO] [base_page.py]/[line: 85]/[swipe_find] //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击 
+[2023-04-01 14:37:49] [INFO] [base_page.py]/[line: 79]/[set_implicitly_wait] 设置隐式等待时间为2秒 
+[2023-04-01 14:37:50] [INFO] [base_page.py]/[line: 79]/[set_implicitly_wait] 设置隐式等待时间为2秒 
+[2023-04-01 14:37:50] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@class='android.widget.Toast']") 
+[2023-04-01 14:37:50] [INFO] [base_page.py]/[line: 116]/[get_tips] //*[@class='android.widget.Toast']通过xpath方式并输出为text 
+[2023-04-01 14:37:52] [INFO] [add_member_page.py]/[line: 31]/[get_toast_tips] 弹窗信息为添加成功 
+[2023-04-01 14:37:52] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:37:52] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:37:54] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:37:54] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:37:55] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@text='消息']通过xpath方式寻找并点击 

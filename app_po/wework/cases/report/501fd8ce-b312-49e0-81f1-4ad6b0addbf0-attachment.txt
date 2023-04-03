@@ -1,0 +1,15 @@
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@resource-id='com.tencent.wework:id/kjd']//*[@text='工作台']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/hek' and @text='打卡']")
+[32mINFO    [0m utils.log_until:base_page.py:85 //*[@resource-id='com.tencent.wework:id/hek' and @text='打卡']通过xpath方式滑动找到并点击
+[32mINFO    [0m utils.log_until:base_page.py:79 设置隐式等待时间为2秒
+[32mINFO    [0m utils.log_until:base_page.py:79 设置隐式等待时间为2秒
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@resource-id='com.tencent.wework:id/kls']通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:base_page.py:218 显式等待找到//*[contains(@text,'次外出')]按钮可点击停止
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[contains(@text,'次外出')]通过xpath方式寻找并点击
+[32mINFO    [0m utils.log_until:base_page.py:200 显式等待找到外出打卡成功文本可见停止
+[32mINFO    [0m utils.log_until:base_page.py:70 //*[@resource-id='com.tencent.wework:id/s_']通过xpath方式寻找并输出为text
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@text='通讯录']")
+[32mINFO    [0m utils.log_until:base_page.py:46 //*[@text='通讯录']通过xpath方式寻找
+[32mINFO    [0m utils.log_until:error_handle.py:21 开始查找元素: ('xpath', "//*[@text='通讯录']")
+[32mINFO    [0m utils.log_until:base_page.py:46 //*[@text='通讯录']通过xpath方式寻找
+[32mINFO    [0m utils.log_until:base_page.py:56 //*[@text='消息']通过xpath方式寻找并点击

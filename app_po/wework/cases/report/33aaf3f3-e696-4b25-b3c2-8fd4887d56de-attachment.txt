@@ -1,0 +1,28 @@
+[2023-04-01 14:37:14] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@text='通讯录']通过xpath方式寻找并点击 
+[2023-04-01 14:37:15] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='添加成员']") 
+[2023-04-01 14:37:15] [INFO] [base_page.py]/[line: 85]/[swipe_find] //*[@text='添加成员']通过xpath方式滑动找到并点击 
+[2023-04-01 14:37:15] [INFO] [base_page.py]/[line: 79]/[set_implicitly_wait] 设置隐式等待时间为2秒 
+[2023-04-01 14:37:16] [INFO] [base_page.py]/[line: 79]/[set_implicitly_wait] 设置隐式等待时间为2秒 
+[2023-04-01 14:37:16] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@resource-id='com.tencent.wework:id/dwd']通过xpath方式寻找并点击 
+[2023-04-01 14:37:18] [INFO] [base_page.py]/[line: 70]/[find_and_text] //*[@resource-id='com.tencent.wework:id/l6i']通过xpath方式寻找并输出为text 
+[2023-04-01 14:37:19] [INFO] [base_page.py]/[line: 66]/[find_and_sendkeys] //*[@resource-id='com.tencent.wework:id/byk']通过xpath方式寻找并输入常某 
+[2023-04-01 14:37:19] [INFO] [base_page.py]/[line: 66]/[find_and_sendkeys] //*[@resource-id='com.tencent.wework:id/i4t']通过xpath方式寻找并输入18106723945 
+[2023-04-01 14:37:20] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/az1']") 
+[2023-04-01 14:37:20] [INFO] [base_page.py]/[line: 85]/[swipe_find] //*[@resource-id='com.tencent.wework:id/az1']通过xpath方式滑动找到并点击 
+[2023-04-01 14:37:20] [INFO] [base_page.py]/[line: 79]/[set_implicitly_wait] 设置隐式等待时间为2秒 
+[2023-04-01 14:37:21] [INFO] [base_page.py]/[line: 79]/[set_implicitly_wait] 设置隐式等待时间为2秒 
+[2023-04-01 14:37:21] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@class='android.widget.Toast']") 
+[2023-04-01 14:37:21] [INFO] [base_page.py]/[line: 116]/[get_tips] //*[@class='android.widget.Toast']通过xpath方式并输出为text 
+[2023-04-01 14:37:23] [INFO] [error_handle.py]/[line: 24]/[run] 没有找到元素，开始异常处理 
+[2023-04-01 14:37:23] [INFO] [base_page.py]/[line: 233]/[screenshot] 完成截图操作 
+[2023-04-01 14:37:23] [INFO] [base_page.py]/[line: 244]/[screenshot] 截图路径为 D:\project\app_po\wework\utils\..\image/2023-04-01 14-37-23.png 
+[2023-04-01 14:37:23] [INFO] [base_page.py]/[line: 255]/[save_page_source] 保存页面源码 
+[2023-04-01 14:37:23] [INFO] [base_page.py]/[line: 266]/[save_page_source] page source 的保存路径为 D:\project\app_po\wework\utils\..\page_source/2023-04-01 14-37-23_page_source.xml 
+[2023-04-01 14:37:25] [INFO] [base_page.py]/[line: 116]/[get_tips] //*[@class='android.widget.Toast']通过xpath方式并输出为text 
+[2023-04-01 14:37:28] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:37:28] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:37:30] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:37:30] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:37:32] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:37:32] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:37:33] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@text='消息']通过xpath方式寻找并点击 

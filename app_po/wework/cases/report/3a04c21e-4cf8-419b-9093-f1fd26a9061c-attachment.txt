@@ -1,0 +1,25 @@
+[2023-04-01 14:39:31] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@text='通讯录']通过xpath方式寻找并点击 
+[2023-04-01 14:39:32] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@resource-id='com.tencent.wework:id/l6v']通过xpath方式寻找并点击 
+[2023-04-01 14:39:34] [INFO] [base_page.py]/[line: 66]/[find_and_sendkeys] //*[@resource-id='com.tencent.wework:id/jf8']通过xpath方式寻找并输入王东 
+[2023-04-01 14:39:35] [INFO] [base_page.py]/[line: 200]/[wait_for_text2] 显式等待找到联系人文本可见停止 
+[2023-04-01 14:39:37] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gdx']/child::*") 
+[2023-04-01 14:39:37] [INFO] [base_page.py]/[line: 46]/[finds] //*[@resource-id='com.tencent.wework:id/gdx']/child::*通过xpath方式寻找 
+[2023-04-01 14:39:37] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@resource-id='com.tencent.wework:id/gdx']通过xpath方式寻找并点击 
+[2023-04-01 14:39:38] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@resource-id='com.tencent.wework:id/l6l']通过xpath方式寻找并点击 
+[2023-04-01 14:39:38] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@resource-id='com.tencent.wework:id/c5x']通过xpath方式寻找并点击 
+[2023-04-01 14:39:39] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@resource-id='com.tencent.wework:id/gpu']/child::*/child::*[3]") 
+[2023-04-01 14:39:39] [INFO] [base_page.py]/[line: 35]/[find] //*[@resource-id='com.tencent.wework:id/gpu']/child::*/child::*[3]通过xpath方式寻找 
+[2023-04-01 14:39:40] [INFO] [base_page.py]/[line: 66]/[find_and_sendkeys] //*[@resource-id='com.tencent.wework:id/gpu']/child::*/child::*[3]通过xpath方式寻找并输入王西 
+[2023-04-01 14:39:41] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@resource-id='com.tencent.wework:id/gpb']通过xpath方式寻找并点击 
+[2023-04-01 14:39:42] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@text='男']通过xpath方式寻找并点击 
+[2023-04-01 14:39:43] [INFO] [base_page.py]/[line: 218]/[wait_for_click] 显式等待找到//*[@text='保存']按钮可点击停止 
+[2023-04-01 14:39:44] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@resource-id='com.tencent.wework:id/l6s']通过xpath方式寻找并点击 
+[2023-04-01 14:39:44] [INFO] [base_page.py]/[line: 200]/[wait_for_text2] 显式等待找到王西文本可见停止 
+[2023-04-01 14:39:46] [INFO] [base_page.py]/[line: 70]/[find_and_text] //*[@resource-id='com.tencent.wework:id/khc']通过xpath方式寻找并输出为text 
+[2023-04-01 14:39:47] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:39:47] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:39:50] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:39:50] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:39:53] [INFO] [error_handle.py]/[line: 21]/[run] 开始查找元素: ('xpath', "//*[@text='通讯录']") 
+[2023-04-01 14:39:53] [INFO] [base_page.py]/[line: 46]/[finds] //*[@text='通讯录']通过xpath方式寻找 
+[2023-04-01 14:39:53] [INFO] [base_page.py]/[line: 56]/[find_and_click] //*[@text='消息']通过xpath方式寻找并点击 
