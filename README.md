@@ -1,9 +1,9 @@
 # project
 
 ## 作业存放地址
-https://gitee.com/sj73654/project/tree/master/app_po/wework/
-## Allure截图
-![img_3.png](img_3.png)
+https://gitee.com/sj73654/project/blob/master/test_api/test_pet.py
+## 笔记存放地址
+https://blog.73654.cn/index.php/2023/04/04/%e6%9c%8d%e5%8a%a1%e7%ab%af-api%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%8b%e8%af%95/
 
 
 #### 介绍
