@@ -1,0 +1,1 @@
+[32mINFO    [0m test_api.test_litemall_pro.utils.log_util:classify_api.py:72 {'errno': 505, 'errmsg': '更新数据失败'}

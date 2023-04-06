@@ -1,0 +1,3 @@
+[2023-04-06 21:08:01] [INFO] [base_api.py]/[line: 24]/[get_token] {'errno': 0, 'data': {'adminInfo': {'nickName': 'hogwarts', 'avatar': "'"}, 'token': '30f71d26-91db-4389-80c9-41df1966570a'}, 'errmsg': '成功'} 
+[2023-04-06 21:08:12] [INFO] [classify_api.py]/[line: 25]/[add] {'errno': 0, 'data': {'id': 1044895, 'name': '郗辰政', 'keywords': '', 'pid': 0, 'level': 'L2', 'addTime': '2023-04-06 21:08:12', 'updateTime': '2023-04-06 21:08:12'}, 'errmsg': '成功'} 
+[2023-04-06 21:08:12] [INFO] [test_classify.py]/[line: 22]/[test_add] {'errno': 0, 'data': {'id': 1044895, 'name': '郗辰政', 'keywords': '', 'pid': 0, 'level': 'L2', 'addTime': '2023-04-06 21:08:12', 'updateTime': '2023-04-06 21:08:12'}, 'errmsg': '成功'} 

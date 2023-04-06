@@ -1,10 +1,11 @@
 # project
 
 ## 作业存放地址
-https://gitee.com/sj73654/project/blob/master/test_api/test_pet.py
+https://gitee.com/sj73654/project/tree/master/test_api/test_litemall_goods_classify/
 ## 笔记存放地址
-https://blog.73654.cn/index.php/2023/04/04/%e6%9c%8d%e5%8a%a1%e7%ab%af-api%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%8b%e8%af%95/
-
+https://blog.73654.cn/index.php/2023/04/06/%e6%9c%8d%e5%8a%a1%e7%ab%af-api%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%8b%e8%af%95%e5%ae%9e%e6%88%98-ii/
+## allure报告截图
+![img_4.png](img_4.png)
 
 #### 介绍
 **以下是 Gitee 平台说明，您可以替换此简介**
