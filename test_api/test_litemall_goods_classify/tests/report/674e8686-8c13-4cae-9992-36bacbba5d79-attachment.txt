@@ -1,1 +1,0 @@
-[32mINFO    [0m test_api.test_litemall_pro.utils.log_util:classify_api.py:55 {'errno': 0, 'errmsg': '成功'}
