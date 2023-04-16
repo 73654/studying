@@ -1,8 +1,6 @@
-import json
+from flask import request, Blueprint, jsonify
 
-from flask import Flask, request, Blueprint, jsonify
-
-from platform_backend.practice.data import testcases
+from platform_project.platform_backend.practice.data import testcases
 
 # 实例化蓝图对象
 testcase_bp = Blueprint('testcase', __name__, url_prefix='/testcase')

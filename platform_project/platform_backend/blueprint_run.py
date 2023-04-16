@@ -1,8 +1,8 @@
 from flask import Flask
 from  flask import CORS
 
-from platform_backend.bp_user import user
-from platform_backend.testcase_blueprint import testcase_bp
+from platform_project.platform_backend.bp_user import user
+from platform_project.platform_backend.testcase_blueprint import testcase_bp
 
 app = Flask(__name__)
 CORS(app)
