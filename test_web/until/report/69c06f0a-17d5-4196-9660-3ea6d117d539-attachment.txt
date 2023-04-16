@@ -1,1 +1,0 @@
-INFO     test_web.until.log_until:test_litemall_login.py:36 截图登录页面
